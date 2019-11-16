@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nav_db>
+  
+  <arpt>
+    <file>data/nav/generic/arpt.txt</file>
+    <file>data/nav/oahu/arpt.txt</file>
+  </arpt>
+  
+  <ils>
+    <file>data/nav/generic/ils.txt</file>
+    <file>data/nav/oahu/ils.txt</file>
+  </ils>
+  
+  <nav>
+    <file>data/nav/generic/nav.txt</file>
+    <file>data/nav/oahu/nav.txt</file>
+  </nav>
+  
+</nav_db>
