@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <nav_db>
   
-  <arpt>
+  <apt>
     <file>data/nav/generic/arpt.txt</file>
     <file>data/nav/oahu/arpt.txt</file>
-  </arpt>
+  </apt>
   
   <ils>
     <file>data/nav/generic/ils.txt</file>
@@ -15,5 +15,9 @@
     <file>data/nav/generic/nav.txt</file>
     <file>data/nav/oahu/nav.txt</file>
   </nav>
+  
+  <rwy>
+    <file>data/nav/oahu/rwy.txt</file>
+  </rwy>
   
 </nav_db>
