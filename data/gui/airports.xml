@@ -21,16 +21,16 @@
     
     <location runway="1" elevation="3" slope="3">
       <name>Runway 08</name>
-      <lat>21.579593</lat>
-      <lon>-158.208482</lon>
+      <lat>21.579577</lat>
+      <lon>-158.208171</lon>
       <alt>0.0</alt>
       <hdg>90.6</hdg> <!-- MAG HDG 81.0 -->
     </location>
     
     <location runway="1" elevation="3" slope="3">
       <name>Runway 26</name>
-      <lat>21.579420</lat>
-      <lon>-158.190391</lon>
+      <lat>21.579412</lat>
+      <lon>-158.190645</lon>
       <alt>0.0</alt>
       <hdg>270.6</hdg> <!-- MAG HDG 261.0 -->
     </location>
@@ -56,6 +56,14 @@
       <alt>0.0</alt>
       <hdg>248.3</hdg> <!-- MAG HDG 237.0 -->
     </location>
+    
+    <location>
+      <name>Helipad H1</name>
+      <lat>21.478967</lat>
+      <lon>-158.037261</lon>
+      <alt>0.0</alt>
+      <hdg>159.0</hdg>
+    </location>
   
   </airport>
   
@@ -65,14 +73,6 @@
     
     <location runway="1" elevation="7" slope="3">
       <name>Runway 04L</name>
-      <lat>21.299836</lat>
-      <lon>-158.079490</lon>
-      <alt>0.0</alt>
-      <hdg>55.0</hdg> <!-- MAG HDG 45.4 -->
-    </location>
-    
-    <location runway="1" elevation="7" slope="3">
-      <name>Runway 04R</name>
       <lat>21.307082</lat>
       <lon>-158.071712</lon>
       <alt>0.0</alt>
@@ -80,9 +80,17 @@
     </location>
     
     <location runway="1" elevation="7" slope="3">
+      <name>Runway 04R</name>
+      <lat>21.299788</lat>
+      <lon>-158.079611</lon>
+      <alt>0.0</alt>
+      <hdg>55.0</hdg> <!-- MAG HDG 45.4 -->
+    </location>
+    
+    <location runway="1" elevation="7" slope="3">
       <name>Runway 11</name>
-      <lat>21.311466</lat>
-      <lon>-158.083536</lon>
+      <lat>21.311262</lat>
+      <lon>-158.083090</lon>
       <alt>0.0</alt>
       <hdg>118.0</hdg> <!-- MAG HDG 108.4 -->
     </location>
@@ -110,6 +118,14 @@
       <alt>0.0</alt>
       <hdg>298.0</hdg> <!-- MAG HDG 288.4 -->
     </location>
+    
+    <location>
+      <name>Helipad H1</name>
+      <lat>21.312512</lat>
+      <lon>-158.079312</lon>
+      <alt>0.0</alt>
+      <hdg>213.0</hdg>
+    </location>
   
   </airport>
   
@@ -131,6 +147,30 @@
       <lon>-157.759632</lon>
       <alt>0.0</alt>
       <hdg>231.6</hdg> <!-- MAG HDG 222.0 -->
+    </location>
+    
+    <location>
+      <name>Helipad H1</name>
+      <lat>21.447681</lat>
+      <lon>-157.774860</lon>
+      <alt>0.0</alt>
+      <hdg>63.0</hdg>
+    </location>
+    
+    <location>
+      <name>Helipad H2</name>
+      <lat>21.447022</lat>
+      <lon>-157.774455</lon>
+      <alt>0.0</alt>
+      <hdg>59.0</hdg>
+    </location>
+    
+    <location>
+      <name>Helipad H3</name>
+      <lat>21.439613</lat>
+      <lon>-157.764568</lon>
+      <alt>0.0</alt>
+      <hdg>13.0</hdg>
     </location>
   
   </airport>
