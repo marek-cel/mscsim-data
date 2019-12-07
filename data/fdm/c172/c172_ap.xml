@@ -78,7 +78,7 @@
     
     <climb_rate_tc> 2.0 </climb_rate_tc>
     
-    <min_dh_arm unit="ft">  50.0 </min_dh_arm>
+    <min_dh_arm unit="ft">  20.0 </min_dh_arm>
     
     <nav_dev_max unit="deg"> 8.0 </nav_dev_max>
     <apr_dev_max unit="deg"> 5.0 </apr_dev_max>
