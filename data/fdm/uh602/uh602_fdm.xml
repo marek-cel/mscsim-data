@@ -34,23 +34,7 @@
     
     <!-- main rotor -->
     <main_rotor counter-clockwise="1">
-      <hub_center> 0.0 0.0 -1.62 </hub_center>        <!-- [m] rotor hub coordinates -->
-      <inclination unit="deg"> 3.0 </inclination>     <!-- [rad] rotor inclination angle (positive if forward) -->
-      <number_of_blades> 4 </number_of_blades>        <!-- number of blades -->
-      <blade_mass> 116.5 </blade_mass>                <!-- [kg] single blade mass -->
-      <rotor_radius> 8.18 </rotor_radius>             <!-- [m] rotor radius -->
-      <blade_chord> 0.53 </blade_chord>               <!-- [m] blade chord -->
-      <hinge_offset> 0.38 </hinge_offset>             <!-- [m] flapping hinge offset -->
-      <lift_slope> 5.73 </lift_slope>                 <!-- [1/rad] blade section lift curve slope -->
-      <tip_losses> 0.97 </tip_losses>                 <!-- [-] tip losses coefficient -->
-      <delta_0> 0.001 </delta_0>                      <!-- [-] drag coefficient constant component -->
-      <delta_2> 0.001 </delta_2>                      <!-- [-] drag coefficient quadratic component -->
-      <beta_max unit="deg"> 20.0 </beta_max>          <!-- [rad] maximum flapping angle -->
-      <ct_max> 0.1846 </ct_max>                       <!-- [-] maximum thrust coefficient -->
-      <cq_max> 1.0 </cq_max>                          <!-- [-] maximum torque coefficient -->
-      <thrust_factor> 0.4 </thrust_factor>            <!-- [-] thrust scaling factor -->
-      <torque_factor> 0.4 </torque_factor>            <!-- [-] torque scaling factor -->
-      <vel_i_factor>  0.4 </vel_i_factor>             <!-- [-] induced velocity scaling factor -->
+
     </main_rotor>
     
     <!-- tail rotor -->
