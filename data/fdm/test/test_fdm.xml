@@ -34,7 +34,58 @@
     
     <!-- main rotor -->
     <main_rotor counter-clockwise="1">
-
+      
+      <hub_center> 0.0 0.0 -1.62 </hub_center>        <!-- [m] rotor hub coordinates -->
+      <inclination unit="deg"> 3.0 </inclination>     <!-- [rad] rotor inclination angle (positive if forward) -->
+      <number_of_blades> 4 </number_of_blades>        <!-- number of blades -->
+      
+      <blade>
+        
+        <blade_mass> 116.5 </blade_mass>              <!-- [kg] single blade mass -->
+        <blade_span> 7.8 </blade_span>                <!-- [m] blade span -->
+        <blade_chord> 0.53 </blade_chord>             <!-- [m] blade chord -->
+        <hinge_offset> 0.38 </hinge_offset>           <!-- [m] flapping hinge offset -->
+        <beta_min unit="deg"> -5.0 </beta_min>        <!-- [rad] minimum flapping angle -->
+        <beta_max unit="deg"> 10.0 </beta_max>        <!-- [rad] maximum flapping angle -->
+        <twist_0 unit="deg"> 0.0 </twist_0>           <!-- [rad] blade twist at attachment -->
+        <twist_rate unit="deg"> 0.0 </twist_rate>     <!-- [rad/1] blade twist rate -->
+        
+        <!-- [-] drag coefficient vs [rad] angle of attack -->
+        <cd keys_unit="deg">
+          -180.0     0.005
+          -135.0     1.000
+           -90.0     1.400
+           -45.0     1.000
+           -30.0     0.400
+           -15.0     0.100
+             0.0     0.002
+            15.0     0.100
+            30.0     0.400
+            45.0     1.000
+            90.0     1.400
+           135.0     1.000
+           180.0     0.005
+        </cd>
+        
+        <!-- [-] lift coefficient vs [rad] angle of attack -->
+        <cl keys_unit="deg">
+          -180.0     0.0
+          -135.0     1.0
+           -90.0     0.0
+           -45.0    -1.0
+           -30.0    -0.8
+           -15.0    -1.2
+             0.0     0.0
+            15.0     1.2
+            30.0     0.8
+            45.0     1.0
+            90.0     0.0
+           135.0    -1.0
+           180.0     0.0
+        </cl>
+        
+      </blade>
+      
     </main_rotor>
     
     <!-- tail rotor -->
@@ -517,9 +568,13 @@
     </control_channel>
     
     <!-- [rad] longitudinal cyclic pitch vs [-] normalized pitch input -->
-    <control_channel name="cyclic_lon" unit="deg">
+    <!--<control_channel name="cyclic_lon" unit="deg">
       -1.0   12.3
        1.0  -16.5
+    </control_channel>-->
+    <control_channel name="cyclic_lon" unit="deg">
+      -1.0   15.0
+       1.0  -15.0
     </control_channel>
     
     <!-- [rad] elevator deflection vs [-] normalized pitch input -->
@@ -530,8 +585,12 @@
     </control_channel>
     
     <!-- [rad] collective pitch vs [-] normalized collective input -->
-    <control_channel name="collective" unit="deg">
+    <!--<control_channel name="collective" unit="deg">
        0.0    9.9
+       1.0   25.9
+    </control_channel>-->
+    <control_channel name="collective" unit="deg">
+       0.0    0.0
        1.0   25.9
     </control_channel>
     
