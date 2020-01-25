@@ -207,5 +207,47 @@
     </masses>
       
   </aircraft>
+  
+  
+  
+  <aircraft>
+    
+    <name>TEST</name>
+    <type>5</type>
+    <file>data/cgi/entities/uh60.xml</file>
+    
+    <distance_def> 40.0 </distance_def>
+    <distance_min>  5.0 </distance_min>
+    
+    <camera_offset>
+      <x>   2.8  </x>
+      <y>  -0.7  </y>
+      <z>   0.0  </z>
+    </camera_offset>
+    
+    <vne unit="kts"> 193.0 </vne>
+    
+    <controls>
+      <collective />
+    </controls>
+    
+    <propulsion engines="2">
+      <ng />
+      <n2 />
+      <trq />
+      <itt />
+    </propulsion>
+    
+    <main_rotor_coef> -1.0 </main_rotor_coef>
+    <tail_rotor_coef> -1.0 </tail_rotor_coef>
+    
+    <masses>
+      <pilot_1     name="Pilot (Left)"  maximum="120.0"  default="80.0"   />
+      <pilot_2     name="Pilot (Right)" maximum="120.0"  default="80.0"   />
+      <fuel_tank_1 name="Fuel Tank"     maximum="1100.0" default="1100.0" />
+      <cabin       name="Cabin"         maximum="1200.0" default="880.0"  />
+    </masses>
+      
+  </aircraft>
 
 </aircrafts>
