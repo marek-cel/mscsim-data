@@ -42,9 +42,10 @@
       <blade>
         
         <blade_mass> 116.5 </blade_mass>              <!-- [kg] single blade mass -->
-        <blade_span> 7.8 </blade_span>                <!-- [m] blade span -->
+        <rotor_radius> 8.18 </rotor_radius>           <!-- [m] rotor radius -->
         <blade_chord> 0.53 </blade_chord>             <!-- [m] blade chord -->
         <hinge_offset> 0.38 </hinge_offset>           <!-- [m] flapping hinge offset -->
+        <spar_length> 1.17 </spar_length>             <!-- [m] blade spar length -->
         <beta_min unit="deg"> -5.0 </beta_min>        <!-- [rad] minimum flapping angle -->
         <beta_max unit="deg"> 10.0 </beta_max>        <!-- [rad] maximum flapping angle -->
         <twist_0 unit="deg"> 0.0 </twist_0>           <!-- [rad] blade twist at attachment -->
