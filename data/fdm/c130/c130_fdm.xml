@@ -283,7 +283,7 @@
     </tail_off>
     
     <!-- horizontal stabilizer -->
-    <stab_hor type="horizontal">
+    <stab_hor>
         
       <aero_center> -13.04 0.0 -2.07 </aero_center>   <!-- [m] stabilizer aerodynamic center expressed in BAS -->
       
@@ -355,7 +355,7 @@
     </stab_hor>
     
     <!-- vertical stabilizer -->
-    <stab_ver type="vertical">
+    <stab_ver>
         
       <aero_center> -12.62 0.0 -5.09 </aero_center>   <!-- [m] stabilizer aerodynamic center expressed in BAS -->
       

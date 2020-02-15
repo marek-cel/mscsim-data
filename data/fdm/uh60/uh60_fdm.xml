@@ -655,7 +655,7 @@
                     </fuselage_old>
 
     <!-- horizontal stabilizer -->
-    <stab_hor type="horizontal">
+    <stab_hor>
         
       <aero_center> -9.12 0.0 0.18 </aero_center>     <!-- [m] stabilizer aerodynamic center expressed in BAS -->
       
@@ -734,7 +734,7 @@
     </stab_hor>
     
     <!-- vertical stabilizer -->
-    <stab_ver type="vertical">
+    <stab_ver>
         
       <aero_center> -8.98 0.0 -0.55  </aero_center>    <!-- [m] stabilizer aerodynamic center expressed in BAS -->
       
