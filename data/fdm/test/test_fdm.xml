@@ -36,7 +36,7 @@
     <main_rotor_be counter-clockwise="1">
       
       <hub_center> 0.0 0.0 -1.62 </hub_center>        <!-- [m] rotor hub coordinates -->
-      <inclination unit="deg"> 0.0 </inclination>     <!-- [rad] rotor inclination angle (positive if forward) -->
+      <inclination unit="deg"> 3.0 </inclination>     <!-- [rad] rotor inclination angle (positive if forward) -->
       <number_of_blades> 4 </number_of_blades>        <!-- number of blades -->
       <rotor_radius> 8.18 </rotor_radius>             <!-- [m] rotor radius -->
       
@@ -46,7 +46,7 @@
         <blade_length> 7.8 </blade_length>            <!-- [m] blade length -->
         <blade_chord> 0.53 </blade_chord>             <!-- [m] blade chord -->
         <hinge_offset> 0.38 </hinge_offset>           <!-- [m] flapping hinge offset -->
-        <beta_min unit="deg"> -6.0 </beta_min>        <!-- [rad] minimum flapping angle -->
+        <beta_min unit="deg"> -10.0 </beta_min>        <!-- [rad] minimum flapping angle -->
         <beta_max unit="deg">  25.0 </beta_max>       <!-- [rad] maximum flapping angle -->
 
         <!-- [rad] blade twist vs [m] spanwise coordinate -->
@@ -663,35 +663,35 @@
     
     <!-- [rad] lateral cyclic pitch vs [-] normalized roll input -->
     <control_channel name="cyclic_lat" unit="deg">
-      -1.0    8.0
+      -1.0   10.0
        0.0    0.0
-       1.0   -8.0
+       1.0  -10.0
     </control_channel>
     
-    <!-- [rad] longitudinal cyclic pitch vs [-] normalized pitch input -->
     <control_channel name="cyclic_lon" unit="deg">
-      -1.0   12.3
-       1.0  -16.5
+      -1.0   10.0
+       0.0    0.0
+       1.0  -10.0
     </control_channel>
     
     <!-- [rad] elevator deflection vs [-] normalized pitch input -->
     <control_channel name="elevator" unit="deg">
-      -1.0  -30.0
+      -1.0    0.0
        0.0    0.0
-       1.0   35.0
+       1.0    0.0
     </control_channel>
     
     <!-- [rad] collective pitch vs [-] normalized collective input -->
     <control_channel name="collective" unit="deg">
-       0.0    9.9
-       1.0   25.9
+       0.0   10.0
+       1.0   20.0
     </control_channel>
     
     <!-- [rad] tail collective pitch vs [-] normalized yaw input -->
     <control_channel name="tail_pitch" unit="deg">
-      -1.0    0.1
-       0.0   15.0
-       1.0   29.9
+      -1.0  -20.0
+       0.0    0.0
+       1.0   20.0
     </control_channel>
     
     <!-- [-] normalized left brake force vs [-] normalized left brake input -->
@@ -710,6 +710,19 @@
   
   <!-- landing gear -->
   <landing_gear>
+    
+    <!-- nose wheel -->
+    <wheel name="wheel_n" steerable="0" caster="1" brake_group="0">
+      <attachment_point>  -7.81   0.0  0.0   </attachment_point>    <!-- [m] strut attachment point coordinates expressed in BAS -->
+      <unloaded_wheel>    -7.81   0.0  1.76  </unloaded_wheel>      <!-- [m] unloaded wheel coordinates expressed in BAS -->
+      
+      <stiffness>  8.0e+4  </stiffness>                             <!-- [N/m] strut stiffness (linear spring) coefficient -->
+      <damping>    8.0e+3  </damping>                               <!-- [N/(m/s)] strut damping coefficient -->
+      
+      <friction_static>   0.95  </friction_static>                  <!-- [-] coefficient of static friction -->
+      <friction_kinetic>  0.75  </friction_kinetic>                 <!-- [-] coefficient of kinetic friction -->
+      <friction_rolling>  0.02  </friction_rolling>                 <!-- [-] coefficient of rolling friction -->
+    </wheel>
     
     <!-- left wheel -->
     <wheel name="wheel_l" steerable="0" caster="0" brake_group="1">
@@ -731,19 +744,6 @@
       
       <stiffness>  2.6e+5  </stiffness>                             <!-- [N/m] strut stiffness (linear spring) coefficient -->
       <damping>    1.0e+4  </damping>                               <!-- [N/(m/s)] strut damping coefficient -->
-      
-      <friction_static>   0.95  </friction_static>                  <!-- [-] coefficient of static friction -->
-      <friction_kinetic>  0.75  </friction_kinetic>                 <!-- [-] coefficient of kinetic friction -->
-      <friction_rolling>  0.02  </friction_rolling>                 <!-- [-] coefficient of rolling friction -->
-    </wheel>
-    
-    <!-- tail wheel -->
-    <wheel name="wheel_t" steerable="0" caster="1" brake_group="0">
-      <attachment_point>  -7.81   0.0  0.0   </attachment_point>    <!-- [m] strut attachment point coordinates expressed in BAS -->
-      <unloaded_wheel>    -7.81   0.0  1.76  </unloaded_wheel>      <!-- [m] unloaded wheel coordinates expressed in BAS -->
-      
-      <stiffness>  8.0e+4  </stiffness>                             <!-- [N/m] strut stiffness (linear spring) coefficient -->
-      <damping>    8.0e+3  </damping>                               <!-- [N/(m/s)] strut damping coefficient -->
       
       <friction_static>   0.95  </friction_static>                  <!-- [-] coefficient of static friction -->
       <friction_kinetic>  0.75  </friction_kinetic>                 <!-- [-] coefficient of kinetic friction -->

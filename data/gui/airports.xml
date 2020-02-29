@@ -195,7 +195,7 @@
       <hdg>53.0</hdg> <!-- MAG HDG 43.4 -->
     </location>
     
-    <location runway="1" elevation="3" slope="3" default="1">
+    <location runway="1" elevation="3" slope="3">
       <name>Runway 08L</name>
       <lat>21.325247</lat>
       <lon>-157.942733</lon>
@@ -259,7 +259,7 @@
     </location>
     
     <!-- Runway 36 -->
-    <location runway="1" elevation="0" slope="3">
+    <location runway="1" elevation="0" slope="3" default="1">
       <name>Runway 36</name>
       <lat>-0.013500</lat>
       <lon>1.0e-7</lon>

@@ -210,10 +210,10 @@
   
   
   
-  <aircraft>
+  <!--<aircraft>
     
     <name>TEST</name>
-    <type>5</type>
+    <type>999</type>
     <file>data/cgi/entities/uh60.xml</file>
     
     <distance_def> 40.0 </distance_def>
@@ -228,6 +228,7 @@
     <vne unit="kts"> 193.0 </vne>
     
     <controls>
+      <landing_gear />
       <collective />
     </controls>
     
@@ -248,6 +249,6 @@
       <cabin       name="Cabin"         maximum="1200.0" default="880.0"  />
     </masses>
       
-  </aircraft>
+  </aircraft>-->
 
 </aircrafts>
