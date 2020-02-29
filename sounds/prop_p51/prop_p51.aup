@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="prop_p51_data" version="1.3.0" audacityversion="2.2.1" sel0="0.0000000000" sel1="8.5872291667" vpos="0" h="0.0000000000" zoom="205.6541245376" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="135814__rickyvb__loop-mustang" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="412187">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000981.au" len="262144" min="-0.338844" max="0.334977" rms="0.086768"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000af0.au" len="150043" min="-0.33848" max="0.335061" rms="0.083149"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

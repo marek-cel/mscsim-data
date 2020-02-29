@@ -1,0 +1,14 @@
+Sound      | Licence | User         | Source
+--------------------------------------------------------------------------------
+explosion  | CC0     | ggctuk       | https://freesound.org/people/ggctuk/sounds/80498/
+gear_lock  | CC0     | kyles        | https://freesound.org/people/kyles/sounds/453306/
+gear_move  | CC0     | kyles        | https://freesound.org/people/kyles/sounds/453306/
+prop_c130  | CC0     | papedo       | https://freesound.org/people/papedo/sounds/478218/
+prop_c172  | CC0     | drewkelly    | https://freesound.org/people/drewkelly/sounds/127095/
+prop_f16ab | CC0     | StoneyJ      | https://freesound.org/people/StoneyJ/sounds/104883/
+prop_f16   | CC0     | StoneyJ      | https://freesound.org/people/StoneyJ/sounds/104883/
+prop_p51   | CC0     | RICKYVB      | https://freesound.org/people/RICKYVB/sounds/135814/
+prop_uh60  | CC0     | pan14        | https://freesound.org/people/pan14/sounds/388287/
+run_noise  | CC0     | Grotelue     | https://freesound.org/people/Grotelue/sounds/204737/
+touchdown  | CC0     | RutgerMuller | https://freesound.org/people/RutgerMuller/sounds/104026/
+--------------------------------------------------------------------------------
