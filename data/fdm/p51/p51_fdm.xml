@@ -127,7 +127,7 @@
         180.0      0.0153
       </cx>
       
-      <!-- [-] lift coefficient vs [deg] angle of attack -->
+      <!-- [-] lift coefficient vs [rad] angle of attack -->
       <cz keys_unit="deg">
         -180.0    -0.008
         -170.0     0.059
@@ -197,7 +197,7 @@
          180.0    -0.008
       </cz>
       
-      <!-- [-] pitching moment coefficient vs [deg] angle of attack -->
+      <!-- [-] pitching moment coefficient vs [rad] angle of attack -->
       <cm keys_unit="deg">
         -180.0     0.031
         -170.0     0.232
@@ -291,14 +291,14 @@
       
       <area> 3.81 </area>                             <!-- [m^2] stabilizer area -->
       
-      <incidence unit="deg"> 2.0 </incidence>         <!-- [deg] stabilizer incidence angle -->
+      <incidence unit="deg"> 2.0 </incidence>         <!-- [rad] stabilizer incidence angle -->
       
       <dcx_delevator> 0.0 </dcx_delevator>            <!-- [1/rad] drag coefficient due to elevator deflection -->
       <dcz_delevator> 0.3 </dcz_delevator>            <!-- [1/rad] lift coefficient due to elevator deflection -->
       
       <dcz_delevator_trim> 0.3 </dcz_delevator_trim>  <!-- [1/rad] lift coefficient due to elevator trim deflection -->
       
-      <!-- [-] drag coefficient vs [deg] angle of attack -->
+      <!-- [-] drag coefficient vs [rad] angle of attack -->
       <cx keys_unit="deg">
         -180.0     0.0128
         -150.0     0.6200
@@ -333,7 +333,7 @@
          180.0     0.0128
       </cx>
         
-      <!-- [-] lift coefficient vs [deg] angle of attack -->
+      <!-- [-] lift coefficient vs [rad] angle of attack -->
       <cz keys_unit="deg">
         -180.0     0.000
         -150.0     1.067
@@ -366,7 +366,7 @@
       <dcx_drudder> 0.0 </dcx_drudder>                <!-- [1/rad] drag coefficient due to rudder deflection -->
       <dcy_drudder> 1.0 </dcy_drudder>                <!-- [1/rad] side force coefficient due to rudder deflection -->
       
-      <!-- [-] drag coefficient vs [deg] sideslip angle -->
+      <!-- [-] drag coefficient vs [rad] sideslip angle -->
       <cx keys_unit="deg">
         -20.0      0.5551
         -14.0      0.2681
@@ -379,7 +379,7 @@
          20.0      0.5551
       </cx>
       
-      <!-- [-] side force coefficient vs [deg] sideslip angle -->
+      <!-- [-] side force coefficient vs [rad] sideslip angle -->
       <cy keys_unit="deg">        
         -30.0      1.711
         -15.0      0.975

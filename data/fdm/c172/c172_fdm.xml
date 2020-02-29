@@ -125,7 +125,7 @@
         180.0      0.0299
       </cx>
       
-      <!-- [-] lift coefficient vs [deg] angle of attack -->
+      <!-- [-] lift coefficient vs [rad] angle of attack -->
       <cz keys_unit="deg">
         -180.0    -0.171
         -170.0     0.063
@@ -193,7 +193,7 @@
          180.0    -0.172
       </cz>
       
-      <!-- [-] pitching moment coefficient vs [deg] angle of attack -->
+      <!-- [-] pitching moment coefficient vs [rad] angle of attack -->
       <cm keys_unit="deg">
         -180.0    -0.057
         -170.0     0.204
@@ -414,15 +414,27 @@
       
       <area> 2.0 </area>                              <!-- [m^2] stabilizer area -->
       
-      <incidence unit="deg"> -2.5 </incidence>        <!-- [deg] stabilizer incidence angle -->
-      <downwash> 0.25 </downwash>                     <!-- [-] downwash coefficient [NASA-CR-2605, p.77] -->
+      <incidence unit="deg"> -2.5 </incidence>        <!-- [rad] stabilizer incidence angle -->
+     
+      <!-- [rad] downwash angle vs [rad] angle of attack [NASA-CR-2605, p.77] -->
+      <downwash keys_unit="deg" unit="deg">
+         -90.0     0.00
+         -60.0    -3.75
+         -30.0    -3.75
+         -15.0    -3.75
+           0.0     0.00
+          15.0     3.75
+          30.0     3.75
+          60.0     3.75
+          90.0     0.00
+      </downwash>
       
       <dcx_delevator> 0.0 </dcx_delevator>            <!-- [1/rad] drag coefficient due to elevator deflection -->
       <dcz_delevator> 2.6 </dcz_delevator>            <!-- [1/rad] lift coefficient due to elevator deflection -->
       
       <dcz_delevator_trim> 0.9 </dcz_delevator_trim>  <!-- [1/rad] lift coefficient due to elevator trim deflection -->
       
-      <!-- [-] drag coefficient vs [deg] angle of attack -->
+      <!-- [-] drag coefficient vs [rad] angle of attack -->
       <cx keys_unit="deg">
         -180.0     0.0305
         -150.0     0.6429
@@ -481,7 +493,7 @@
          180.0     0.0305
       </cx>
         
-      <!-- [-] lift coefficient vs [deg] angle of attack -->
+      <!-- [-] lift coefficient vs [rad] angle of attack -->
       <cz keys_unit="deg">
         -180.0     0.000
         -150.0     1.093
@@ -552,7 +564,7 @@
       <dcx_drudder> 0.0 </dcx_drudder>                <!-- [1/rad] drag coefficient due to rudder deflection -->
       <dcy_drudder> 1.8 </dcy_drudder>                <!-- [1/rad] side force coefficient due to rudder deflection -->
       
-      <!-- [-] drag coefficient vs [deg] sideslip angle -->
+      <!-- [-] drag coefficient vs [rad] sideslip angle -->
       <cx keys_unit="deg">
         -90.0      2.7200
         -70.0      2.6034
@@ -573,7 +585,7 @@
          90.0      2.7200
       </cx>
       
-      <!-- [-] side force coefficient vs [deg] sideslip angle -->
+      <!-- [-] side force coefficient vs [rad] sideslip angle -->
       <cy keys_unit="deg">        
         -90.0      0.000
         -60.0      1.840
