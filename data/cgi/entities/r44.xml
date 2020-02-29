@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aircraft>
+  
+  <model>data/cgi/entities/r44.osgb</model>
+  
+  <rotor>
+    <rotor_center>
+      <x>   0.0   </x>
+      <y>   0.0   </y>
+      <z>  -2.23  </z>
+    </rotor_center>
+    
+    <hinge_offset> 0.0  </hinge_offset>
+    <rotor_radius> 5.06 </rotor_radius>
+    
+    <inclination> 3.5 </inclination>
+  </rotor>
+  
+</aircraft>
