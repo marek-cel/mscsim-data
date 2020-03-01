@@ -236,19 +236,67 @@
       </cm>
       
       <!-- [1/rad] drag coefficient due to flaps deflection -->
-      <dcx_dflaps>
-           0.0     0.0000
+      <dcx_dflaps factor="1.0">
+         -90.0     0.0371
+         -60.0    -0.0843
+         -30.0    -0.1055
+         -20.0    -0.0051
+         -10.0     0.0059
+           0.0     0.1006
+          10.0     0.1699
+          15.0     0.2777
+          20.0     0.3498
+          30.0     0.4406
+          60.0     0.7437
+          90.0     0.2815
       </dcx_dflaps>
       
       <!-- [1/rad] lift coefficient due to flaps deflection -->
-      <dcz_dflaps>
-           0.0     0.000
+      <dcz_dflaps factor="0.5">
+         -90.0    -0.054
+         -60.0     0.098
+         -30.0     0.370
+         -20.0     0.218
+         -10.0     0.962
+           0.0     1.199
+          10.0     0.983
+          15.0     0.532
+          20.0     0.782
+          30.0     0.605
+          60.0     0.248
+          90.0    -0.191
       </dcz_dflaps>
       
       <!-- [1/rad] pitching moment coefficient due to flaps deflection -->
-      <dcm_dflaps>
-           0.0     0.000
+      <dcm_dflaps factor="0.5">
+         -90.0     0.085
+         -60.0    -0.047
+         -30.0    -0.079
+         -20.0     0.017
+         -10.0    -0.063
+           0.0     0.029
+          10.0     0.034
+          15.0     0.010
+          20.0    -0.473
+          30.0    -0.328
+          60.0    -0.597
+          90.0    -0.431
       </dcm_dflaps>
+      
+      <!-- [-/-] drag coefficient due to landing gear deflection -->
+      <dcx_dgear>
+           0.0     0.0000
+      </dcx_dgear>
+      
+      <!-- [-/-] lift coefficient due to landing gear deflection -->
+      <dcz_dgear>
+           0.0     0.000
+      </dcz_dgear>
+      
+      <!-- [-/-] pitching moment coefficient due to landing gear deflection -->
+      <dcm_dgear>
+           0.0     0.000
+      </dcm_dgear>
       
     </tail_off>
     
@@ -349,12 +397,36 @@
       
       <!-- [-] drag coefficient vs [rad] sideslip angle -->
       <cx keys_unit="deg">
+        -90.0      1.9004
+        -60.0      1.1570
+        -30.0      0.4506
+        -20.0      0.2123
+        -10.0      0.0583
+         -5.0      0.0226
           0.0      0.0000
+          5.0      0.0226
+         10.0      0.0583
+         20.0      0.2123
+         30.0      0.4506
+         60.0      1.1570
+         90.0      1.9004
       </cx>
       
       <!-- [-] side force coefficient vs [rad] sideslip angle -->
       <cy keys_unit="deg">
-          0.0      0.000
+        -90.0      0.0000
+        -60.0      0.6370
+        -30.0      0.6321
+        -20.0      0.8199
+        -10.0      0.5821
+         -5.0      0.5067
+          0.0      0.0000
+          5.0     -0.5067
+         10.0     -0.5821
+         20.0     -0.8199
+         30.0     -0.6321
+         60.0     -0.6370
+         90.0      0.0000
       </cy>
         
     </stab_ver>
