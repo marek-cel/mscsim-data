@@ -282,6 +282,21 @@
            0.0     0.000
       </dcm_dflaps>
       
+      <!-- [-/-] drag coefficient due to landing gear deflection -->
+      <dcx_dgear>
+           0.0     0.0000
+      </dcx_dgear>
+      
+      <!-- [-/-] lift coefficient due to landing gear deflection -->
+      <dcz_dgear>
+           0.0     0.000
+      </dcz_dgear>
+      
+      <!-- [-/-] pitching moment coefficient due to landing gear deflection -->
+      <dcm_dgear>
+           0.0     0.000
+      </dcm_dgear>
+      
     </tail_off>
     
     <!-- horizontal stabilizer -->
