@@ -53,7 +53,11 @@
       <mac>    4.16 </mac>                    <!-- [m] wing mean aerodynamic chord -->
       <area> 162.12 </area>                   <!-- [m^2] wing area -->
       
-      <dcl_dailerons> 1.0 </dcl_dailerons>    <!-- [1/rad] rolling moment coefficient due to ailerons deflection -->
+      <dcl_dailerons> 1.0 </dcl_dailerons>    <!-- TODO [1/rad] rolling moment coefficient due to ailerons deflection -->
+      
+      <dcx_dgear>  0.0081 </dcx_dgear>        <!-- [-/-] drag coefficient due to landing gear deflection -->
+      <dcz_dgear> -0.005  </dcz_dgear>        <!-- [-/-] lift coefficient due to landing gear deflection -->
+      <dcm_dgear> -0.010  </dcm_dgear>        <!-- [-/-] pitching moment coefficient due to landing gear deflection -->
       
       <!-- [-] drag coefficient vs angle of attack -->
       <cx keys_unit="deg">
@@ -235,68 +239,56 @@
          180.0    -0.026
       </cm>
       
-      <!-- [1/rad] drag coefficient due to flaps deflection -->
-      <dcx_dflaps factor="1.0">
-         -90.0     0.0371
-         -60.0    -0.0843
-         -30.0    -0.1055
-         -20.0    -0.0051
-         -10.0     0.0059
-           0.0     0.1006
-          10.0     0.1699
-          15.0     0.2777
-          20.0     0.3498
-          30.0     0.4406
-          60.0     0.7437
-          90.0     0.2815
+      <!-- drag coefficient due to flaps deflection -->
+      <dcx_dflaps cols_unit="deg" rows_unit="deg">
+                 18.0        35.0
+         -90.0     0.0000     0.0000
+         -60.0     0.1110    -0.0450
+         -30.0    -0.0013    -0.0984
+         -20.0     0.0075    -0.0391
+         -10.0    -0.0136     0.0027
+           0.0     0.0139     0.0674
+          10.0     0.0480     0.1090
+          15.0     0.0617     0.1076
+          20.0    -0.0458     0.0400
+          30.0    -0.2655    -0.1565
+          60.0    -0.4595    -0.3405
+          90.0     0.0000     0.0000
       </dcx_dflaps>
       
-      <!-- [1/rad] lift coefficient due to flaps deflection -->
-      <dcz_dflaps factor="0.5">
-         -90.0    -0.054
-         -60.0     0.098
-         -30.0     0.370
-         -20.0     0.218
-         -10.0     0.962
-           0.0     1.199
-          10.0     0.983
-          15.0     0.532
-          20.0     0.782
-          30.0     0.605
-          60.0     0.248
-          90.0    -0.191
+      <!-- lift coefficient due to flaps deflection -->
+      <dcz_dflaps cols_unit="deg" rows_unit="deg">
+                 18.0        35.0
+         -90.0     0.000      0.000
+         -60.0    -0.084      0.058
+         -30.0     0.004      0.310
+         -20.0    -0.002      0.285
+         -10.0     0.240      0.776
+           0.0     0.384      0.888
+          10.0     0.413      0.678
+          15.0     0.355      0.425
+          20.0     0.252      0.315
+          30.0     0.178      0.353
+          60.0     0.487      0.556
+          90.0     0.000      0.000
       </dcz_dflaps>
       
-      <!-- [1/rad] pitching moment coefficient due to flaps deflection -->
-      <dcm_dflaps factor="0.5">
-         -90.0     0.085
-         -60.0    -0.047
-         -30.0    -0.079
-         -20.0     0.017
-         -10.0    -0.063
-           0.0     0.029
-          10.0     0.034
-          15.0     0.010
-          20.0    -0.473
-          30.0    -0.328
-          60.0    -0.597
-          90.0    -0.431
+      <!-- pitching moment coefficient due to flaps deflection -->
+      <dcm_dflaps cols_unit="deg" rows_unit="deg">
+                 18.0        35.0
+         -90.0     0.000      0.000
+         -60.0     0.118     -0.021
+         -30.0     0.052     -0.081
+         -20.0     0.012     -0.059
+         -10.0    -0.027     -0.071
+           0.0    -0.019     -0.015
+          10.0    -0.010     -0.005
+          15.0     0.033     -0.019
+          20.0     0.060     -0.024
+          30.0     0.084     -0.032
+          60.0     0.154      0.003
+          90.0     0.000      0.000
       </dcm_dflaps>
-      
-      <!-- [-/-] drag coefficient due to landing gear deflection -->
-      <dcx_dgear>
-           0.0     0.0000
-      </dcx_dgear>
-      
-      <!-- [-/-] lift coefficient due to landing gear deflection -->
-      <dcz_dgear>
-           0.0     0.000
-      </dcz_dgear>
-      
-      <!-- [-/-] pitching moment coefficient due to landing gear deflection -->
-      <dcm_dgear>
-           0.0     0.000
-      </dcm_dgear>
       
     </tail_off>
     
@@ -312,18 +304,18 @@
       <!-- [rad] downwash angle vs [rad] angle of attack -->
       <downwash keys_unit="deg" unit="deg">
          -90.0     0.00
-         -60.0    -5.70
-         -30.0    -5.70
-         -15.0    -5.70
+         -60.0    -4.00
+         -30.0    -4.00
+         -15.0    -4.00
            0.0     0.00
-          15.0     5.70
-          30.0     5.70
-          60.0     5.70
+          15.0     4.00
+          30.0     4.00
+          60.0     4.00
           90.0     0.00
       </downwash>
       
-      <dcx_delevator> 0.0 </dcx_delevator>            <!-- [1/rad] drag coefficient due to elevator deflection -->
-      <dcz_delevator> 0.3 </dcz_delevator>            <!-- [1/rad] lift coefficient due to elevator deflection -->
+      <dcx_delevator> 0.0 </dcx_delevator>            <!-- [1/rad] TODO drag coefficient due to elevator deflection -->
+      <dcz_delevator> 0.3 </dcz_delevator>            <!-- [1/rad] TODO lift coefficient due to elevator deflection -->
       
       <dcz_delevator_trim> 0.3 </dcz_delevator_trim>  <!-- [1/rad] lift coefficient due to elevator trim deflection -->
       
@@ -392,40 +384,41 @@
       
       <area> 20.9 </area>                             <!-- [m^2] stabilizer area -->
       
-      <dcx_drudder> 0.0 </dcx_drudder>                <!-- [1/rad] drag coefficient due to rudder deflection -->
-      <dcy_drudder> 1.0 </dcy_drudder>                <!-- [1/rad] side force coefficient due to rudder deflection -->
+      <dcx_drudder> 0.0 </dcx_drudder>                <!-- [1/rad] TODO drag coefficient due to rudder deflection -->
+      <dcy_drudder> 1.0 </dcy_drudder>                <!-- [1/rad] TODO side force coefficient due to rudder deflection -->
       
       <!-- [-] drag coefficient vs [rad] sideslip angle -->
       <cx keys_unit="deg">
-        -90.0      1.9004
-        -60.0      1.1570
-        -30.0      0.4506
-        -20.0      0.2123
-        -10.0      0.0583
-         -5.0      0.0226
+        -90.0      3.5964
+        -60.0      2.4307
+        -30.0      0.8425
+        -20.0      0.3893
+        -10.0      0.0939
+         -5.0      0.0245
           0.0      0.0000
-          5.0      0.0226
-         10.0      0.0583
-         20.0      0.2123
-         30.0      0.4506
-         60.0      1.1570
-         90.0      1.9004
+          5.0      0.0245
+         10.0      0.0939
+         20.0      0.3893
+         30.0      0.8425
+         60.0      2.4307
+         90.0      3.5964
       </cx>
       
       <!-- [-] side force coefficient vs [rad] sideslip angle -->
       <cy keys_unit="deg">
         -90.0      0.0000
-        -60.0      0.6370
-        -30.0      0.6321
-        -20.0      0.8199
-        -10.0      0.5821
-         -5.0      0.5067
+        -90.0      0.0000
+        -60.0      1.4151
+        -30.0      1.3753
+        -20.0      1.6667
+        -10.0      0.9112
+         -5.0      0.4539
           0.0      0.0000
-          5.0     -0.5067
-         10.0     -0.5821
-         20.0     -0.8199
-         30.0     -0.6321
-         60.0     -0.6370
+          5.0     -0.4539
+         10.0     -0.9112
+         20.0     -1.6667
+         30.0     -1.3753
+         60.0     -1.4151
          90.0      0.0000
       </cy>
         
@@ -585,19 +578,19 @@
     <!-- left fuel tank -->
     <variable_mass name="fuel_tank_l">
       <mass_max> 10410.0 </mass_max>                    <!-- [kg] maximum mass -->
-      <coordinates>  -0.2  -0.2   0.7  </coordinates>   <!-- [m] coordinates expressed in BAS -->
+      <coordinates>   0.0  -5.0   0.7  </coordinates>   <!-- [m] coordinates expressed in BAS -->
     </variable_mass>
     
     <!-- right fuel tank -->
     <variable_mass name="fuel_tank_r">
       <mass_max> 10410.0 </mass_max>                    <!-- [kg] maximum mass -->
-      <coordinates>  -0.2   0.2   0.7  </coordinates>   <!-- [m] coordinates expressed in BAS -->
+      <coordinates>   0.0   5.0   0.7  </coordinates>   <!-- [m] coordinates expressed in BAS -->
     </variable_mass>
     
     <!-- cargo cabin -->
     <variable_mass name="cabin">
       <mass_max> 19356.0 </mass_max>                    <!-- [kg] maximum mass -->
-      <coordinates>  -1.1   0.0   0.0  </coordinates>   <!-- [m] coordinates expressed in BAS -->
+      <coordinates>   0.0   0.0   0.0  </coordinates>   <!-- [m] coordinates expressed in BAS -->
     </variable_mass>
     
   </mass>
@@ -632,7 +625,7 @@
       </pitch>
       
       <!-- [-] thrust coefficient vs advance [-] (rows) and propeller pitch [rad] (cols) -->
-      <thrust_coef cols_unit="deg" factor="1.0">
+      <thrust_coef cols_unit="deg" factor="1.5">
                23.0    30.0    40.0    45.0    65.0
         0.0     0.192   0.208   0.219   0.230   0.247
         0.1     0.190   0.206   0.219   0.230   0.247
@@ -705,7 +698,7 @@
       
     </propeller>
     
-    <!-- Packard V-1650-3 engine -->
+    <!-- TODO Packard V-1650-3 engine TODO -->
     <engine>
       <rpm_min>  500.0  </rpm_min>                  <!-- [rpm] minimum rpm -->
       <rpm_max> 6040.0  </rpm_max>                  <!-- [rpm] maximum rpm -->
