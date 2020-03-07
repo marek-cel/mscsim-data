@@ -11,4 +11,5 @@ prop_p51   | CC0     | RICKYVB      | https://freesound.org/people/RICKYVB/sound
 prop_uh60  | CC0     | pan14        | https://freesound.org/people/pan14/sounds/388287/
 run_noise  | CC0     | Grotelue     | https://freesound.org/people/Grotelue/sounds/204737/
 touchdown  | CC0     | RutgerMuller | https://freesound.org/people/RutgerMuller/sounds/104026/
+warning    | CC0     | m_cel        | (Sound generated using Audacity Chirp generator)
 --------------------------------------------------------------------------------
