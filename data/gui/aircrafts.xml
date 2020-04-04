@@ -152,7 +152,14 @@
 
     <controls>
       <landing_gear />
-      <flaps />
+      <flaps>
+        <notch> 0.0 </notch>
+        <notch> 0.2 </notch>
+        <notch> 0.4 </notch>
+        <notch> 0.6 </notch>
+        <notch> 0.8 </notch>
+        <notch> 1.0 </notch>
+      </flaps>
       <throttle count="1" />
       <mixture count="1" />
       <propeller count="1" />
