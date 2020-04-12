@@ -185,13 +185,13 @@
     </mode_hdg>
     
     <!-- turn rate quasi mode -->
-    <mode_trn>
+    <mode_turn>
       <pid>
         <kp> 1.0e-1 </kp>
         <ki> 0.5e-2 </ki>
         <kd> 0.5e-2 </kd>
       </pid>
-    </mode_trn>
+    </mode_turn>
     
   </flight_director>
   
