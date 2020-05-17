@@ -72,9 +72,9 @@
     <max_pitch unit="deg">  20.0  </max_pitch>
     <max_yaw   unit="deg">  30.0  </max_yaw>
     
-    <max_rate_roll  unit="deg_s">  5.0 </max_rate_roll>
-    <max_rate_pitch unit="deg_s"> 10.0 </max_rate_pitch>
-    <max_rate_tr    unit="deg_s">  1.5 </max_rate_tr>
+    <max_rate_roll  unit="deg/s">  5.0 </max_rate_roll>
+    <max_rate_pitch unit="deg/s"> 10.0 </max_rate_pitch>
+    <max_rate_tr    unit="deg/s">  1.5 </max_rate_tr>
     
     <climb_rate_tc> 2.0 </climb_rate_tc>
     
@@ -179,8 +179,8 @@
         <ki> 1.0e-3 </ki>
         <kd> 1.0e-3 </kd>
         
-        <min unit="deg_s"> -3.0 </min> <!-- 2 minute turn -->
-        <max unit="deg_s">  3.0 </max> <!-- 2 minute turn -->
+        <min unit="deg/s"> -3.0 </min> <!-- 2 minute turn -->
+        <max unit="deg/s">  3.0 </max> <!-- 2 minute turn -->
       </pid>
     </mode_hdg>
     

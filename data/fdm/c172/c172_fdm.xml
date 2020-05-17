@@ -860,7 +860,7 @@
       <displacement unit="cuin"> 360.0 </displacement>  <!-- [m^3] engine displacement -->
       <inertia>  2.0  </inertia>                        <!-- [kg*m^2] polar moment of inertia -->
       
-      <sfc unit="g_kWh"> 253.4 </sfc>                   <!-- [kg/(kW*s)] specific fuel consumption -->
+      <sfc unit="g/kWh"> 253.4 </sfc>                   <!-- [kg/(kW*s)] specific fuel consumption -->
       
       <!-- power [W] vs engine rpm -->
       <power_rpm unit="kW">

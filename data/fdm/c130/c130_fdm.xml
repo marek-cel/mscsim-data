@@ -708,7 +708,7 @@
       <displacement unit="l"> 27.02 </displacement> <!-- [m^3] engine displacement -->
       <inertia>   20.0  </inertia>                  <!-- [kg*m^2] polar moment of inertia -->
       
-      <sfc unit="g_kWh"> 274.9 </sfc>               <!-- [kg/(kW*s)] specific fuel consumption -->
+      <sfc unit="g/kWh"> 274.9 </sfc>               <!-- [kg/(kW*s)] specific fuel consumption -->
       
       <!-- power [W] vs engine rpm -->
       <power_rpm unit="kW">
