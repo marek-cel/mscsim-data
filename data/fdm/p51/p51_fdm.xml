@@ -57,9 +57,9 @@
       
       <dcl_dailerons> 1.0 </dcl_dailerons>    <!-- [1/rad] TODO rolling moment coefficient due to ailerons deflection -->
       
-      <dcx_dgear> 0.0 </dcx_dgear>        <!-- [-/-] drag coefficient due to landing gear deflection -->
-      <dcz_dgear> 0.0 </dcz_dgear>        <!-- [-/-] lift coefficient due to landing gear deflection -->
-      <dcm_dgear> 0.0 </dcm_dgear>        <!-- [-/-] pitching moment coefficient due to landing gear deflection -->
+      <dcx_dgear>  0.0135 </dcx_dgear>        <!-- [-/-] drag coefficient due to landing gear deflection -->
+      <dcz_dgear>  0.001  </dcz_dgear>        <!-- [-/-] lift coefficient due to landing gear deflection -->
+      <dcm_dgear> -0.010  </dcm_dgear>        <!-- [-/-] pitching moment coefficient due to landing gear deflection -->
       
       <!-- [-] drag coefficient vs angle of attack -->
       <cx keys_unit="deg">
@@ -273,17 +273,73 @@
       
       <!-- [1/rad] drag coefficient due to flaps deflection -->
       <dcx_dflaps>
-           0.0     0.0000
+        -180.0     0.0882
+        -120.0     0.2583
+         -90.0    -0.2811
+         -60.0    -0.4015
+         -30.0    -0.3579
+         -20.0    -0.1707
+         -10.0     0.0276
+          -5.0     0.0838
+           0.0     0.1375
+           5.0     0.1820
+          10.0     0.2054
+          14.0     0.1780
+          15.0     0.2859
+          20.0     0.3329
+          25.0     0.2207
+          60.0     0.1002
+          90.0    -0.0868
+         120.0    -0.1020
+         150.0    -0.2571
+         180.0     0.0882
       </dcx_dflaps>
       
       <!-- [1/rad] lift coefficient due to flaps deflection -->
       <dcz_dflaps>
-           0.0     0.000
+        -180.0    -0.335
+        -120.0    -0.078
+         -90.0    -0.044
+         -60.0     0.355
+         -30.0     0.849
+         -20.0     0.798
+         -10.0     1.331
+          -5.0     1.270
+           0.0     1.229
+           5.0     1.156
+          10.0     1.007
+          14.0     0.503
+          15.0     0.044
+          20.0     0.415
+          25.0     0.165
+          60.0    -0.103
+          90.0    -0.159
+         120.0    -0.206
+         150.0    -0.026
+         180.0    -0.335
       </dcz_dflaps>
       
       <!-- [1/rad] pitching moment coefficient due to flaps deflection -->
       <dcm_dflaps>
-           0.0     0.000
+        -180.0     0.054
+        -120.0    -0.046
+         -90.0    -0.165
+         -60.0    -0.223
+         -30.0    -0.441
+         -20.0    -0.403
+         -10.0    -0.300
+          -5.0    -0.088
+           0.0    -0.042
+           5.0    -0.022
+          10.0    -0.010
+          14.0    -0.062
+          15.0    -0.257
+          25.0     0.098
+          60.0     0.184
+          90.0     0.082
+         120.0    -0.015
+         150.0    -0.099
+         180.0     0.054
       </dcm_dflaps>
       
     </tail_off>

@@ -446,7 +446,9 @@
     <!-- [rad] rudder deflection vs [-] normalized yaw input -->
     <control_channel name="rudder" unit="deg">
       -1.0  -60.0
+      -0.5  -15.0
        0.0    0.0
+       0.5   15.0
        1.0   60.0
     </control_channel>
     

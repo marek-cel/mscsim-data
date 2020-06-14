@@ -223,7 +223,7 @@
   
   
   
-  <aircraft>
+  <!--<aircraft>
     
     <name>TEST</name>
     <type>999</type>
@@ -262,6 +262,6 @@
       <cabin       name="Cabin"         maximum="1200.0" default="880.0"  />
     </masses>
       
-  </aircraft>
+  </aircraft>-->
 
 </aircrafts>
