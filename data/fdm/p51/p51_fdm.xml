@@ -55,7 +55,7 @@
       <mac>   2.02 </mac>                     <!-- [m] wing mean aerodynamic chord -->
       <area> 22.30 </area>                    <!-- [m^2] wing area -->
       
-      <dcl_dailerons> 1.0 </dcl_dailerons>    <!-- [1/rad] TODO rolling moment coefficient due to ailerons deflection -->
+      <dcl_dailerons> 1.22 </dcl_dailerons>   <!-- [1/rad] rolling moment coefficient due to ailerons deflection -->
       
       <dcx_dgear>  0.0135 </dcx_dgear>        <!-- [-/-] drag coefficient due to landing gear deflection -->
       <dcz_dgear>  0.001  </dcz_dgear>        <!-- [-/-] lift coefficient due to landing gear deflection -->
@@ -353,8 +353,8 @@
       
       <incidence unit="deg"> 2.0 </incidence>         <!-- [rad] stabilizer incidence angle -->
       
-      <dcx_delevator> 0.0 </dcx_delevator>            <!-- [1/rad] TODO drag coefficient due to elevator deflection -->
-      <dcz_delevator> 0.3 </dcz_delevator>            <!-- [1/rad] TODO lift coefficient due to elevator deflection -->
+      <dcx_delevator> 0.19 </dcx_delevator>           <!-- [1/rad] drag coefficient due to elevator deflection -->
+      <dcz_delevator> 1.24 </dcz_delevator>           <!-- [1/rad] lift coefficient due to elevator deflection -->
       
       <dcz_delevator_trim> 0.3 </dcz_delevator_trim>  <!-- [1/rad] lift coefficient due to elevator trim deflection -->
       
@@ -423,29 +423,41 @@
       
       <area> 1.86 </area>                             <!-- [m^2] stabilizer area -->
       
-      <dcx_drudder> 0.0 </dcx_drudder>                <!-- [1/rad] TODO drag coefficient due to rudder deflection -->
-      <dcy_drudder> 1.0 </dcy_drudder>                <!-- [1/rad] TODO side force coefficient due to rudder deflection -->
+      <dcx_drudder> 0.48 </dcx_drudder>               <!-- [1/rad] drag coefficient due to rudder deflection -->
+      <dcy_drudder> 2.28 </dcy_drudder>               <!-- [1/rad] side force coefficient due to rudder deflection -->
       
       <!-- [-] drag coefficient vs [rad] sideslip angle -->
       <cx keys_unit="deg">
-        -20.0      0.5551
-        -14.0      0.2681
-         -8.0      0.1079
-         -4.0      0.0546
-          0.0      0.0374
-          4.0      0.0546
-          8.0      0.1079
-         14.0      0.2681
-         20.0      0.5551
+        -90.0      5.3163
+        -60.0      4.2957
+        -30.0      1.2677
+        -20.0      0.7090
+        -10.0      0.3079
+         -5.0      0.2453
+          0.0      0.2258
+          5.0      0.2451
+         10.0      0.3076
+         20.0      0.7078
+         30.0      1.2674
+         60.0      4.3019
+         90.0      5.2999
       </cx>
       
       <!-- [-] side force coefficient vs [rad] sideslip angle -->
       <cy keys_unit="deg">        
-        -30.0      1.711
-        -15.0      0.975
+        -90.0      0.739
+        -60.0      2.887
+        -30.0      2.178
+        -20.0      1.641
+        -10.0      0.787
+         -5.0      0.374
           0.0      0.000
-         15.0     -0.975
-         30.0     -1.711
+          5.0     -0.373
+         10.0     -0.786
+         20.0     -1.640
+         30.0     -2.179
+         60.0     -2.889
+         90.0     -0.750
       </cy>
         
     </stab_ver>
@@ -458,27 +470,21 @@
     <!-- [rad] ailerons deflection vs [-] normalized roll input -->
     <control_channel name="ailerons" unit="deg">
       -1.0  -15.0
-      -0.5   -5.0
        0.0    0.0
-       0.5    5.0
        1.0   15.0
     </control_channel>
     
     <!-- [rad] elevator deflection vs [-] normalized pitch input -->
     <control_channel name="elevator" unit="deg">
       -1.0  -30.0
-      -0.5  -10.0
        0.0    0.0
-       0.5    6.7
        1.0   20.0
     </control_channel>
     
     <!-- [rad] rudder deflection vs [-] normalized yaw input -->
     <control_channel name="rudder" unit="deg">
       -1.0  -30.0
-      -0.5  -10.0
        0.0    0.0
-       0.5   10.0
        1.0   30.0
     </control_channel>
     

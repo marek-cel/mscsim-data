@@ -1,3 +1,16 @@
+2020-06-20 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * P-51 vertical stabilizer elevator, ailerons and rudder aerodynamic
+      characteristics according to CFD simulation results
+    
+    * C-130 fuel tanks masses and positions
+    
+    * C-130 propellers position 
+    
+    * axes tuning coefficients
+
+
+
 2020-06-14 Marek M. Cel <marekcel@marekcel.pl>
     
     * P-51 flaps and landing gear aerodynamic characteristics according to

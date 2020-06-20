@@ -179,7 +179,7 @@
   <airport>
     <name>(PHNL) Honolulu International</name>
     
-    <location runway="1" elevation="3" slope="3">
+    <location runway="1" elevation="3" slope="3" default="1">
       <name>Runway 04L</name>
       <lat>21.318623</lat>
       <lon>-157.922902</lon>
@@ -259,7 +259,7 @@
     </location>
     
     <!-- Runway 36 -->
-    <location runway="1" elevation="0" slope="3" default="1">
+    <location runway="1" elevation="0" slope="3">
       <name>Runway 36</name>
       <lat>-0.013500</lat>
       <lon>1.0e-7</lon>

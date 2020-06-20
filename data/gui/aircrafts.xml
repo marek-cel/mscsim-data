@@ -18,6 +18,23 @@
     
     <vfe unit="kts"> 145.0 </vfe>
     <vne unit="kts"> 378.0 </vne>
+    
+    <axes>
+      <roll>
+        <curvature> 0.0 </curvature>
+        <deadzone>  0.0 </deadzone>
+      </roll>
+        
+      <pitch>
+        <curvature> 1.0 </curvature>
+        <deadzone>  0.0 </deadzone>
+      </pitch>
+        
+      <yaw>
+        <curvature> 1.0 </curvature>
+        <deadzone>  0.0 </deadzone>
+      </yaw>
+    </axes>
 
     <controls>
       <landing_gear />
@@ -33,11 +50,17 @@
     </propulsion>
     
     <masses>
-      <pilot_1     name="Pilot (Left)"      maximum="120.0"   default="80.0"    />
-      <pilot_2     name="Pilot (Right)"     maximum="120.0"   default="80.0"    />
-      <fuel_tank_1 name="Fuel Tank (Left)"  maximum="10410.0" default="10410.0" />
-      <fuel_tank_2 name="Fuel Tank (Right)" maximum="10410.0" default="10410.0" />
-      <cabin       name="Cabin"             maximum="19356.0" default="0.0"     />
+      <pilot_1     name="Pilot (Left)"    maximum="120.0"   default="80.0"   />
+      <pilot_2     name="Pilot (Right)"   maximum="120.0"   default="80.0"   />
+      <fuel_tank_1 name="Fuel Tank 1"     maximum="3970.0"  default="3970.0" />
+      <fuel_tank_2 name="Fuel Tank 2"     maximum="3660.0"  default="3660.0" />
+      <fuel_tank_3 name="Fuel Tank 3"     maximum="3660.0"  default="3660.0" />
+      <fuel_tank_4 name="Fuel Tank 4"     maximum="3970.0"  default="3970.0" />
+      <fuel_tank_5 name="Fuel Tank Aux L" maximum="2780.0"  default="0.0"    />
+      <fuel_tank_6 name="Fuel Tank Aux R" maximum="2780.0"  default="0.0"    />
+      <fuel_tank_7 name="Fuel Tank Ext L" maximum="4250.0"  default="0.0"    />
+      <fuel_tank_8 name="Fuel Tank Ext R" maximum="4250.0"  default="0.0"    />
+      <cabin       name="Cabin"           maximum="19356.0" default="0.0"    />
     </masses>
 
   </aircraft>
@@ -61,6 +84,23 @@
     
     <vfe unit="kts">  85.0 </vfe>
     <vne unit="kts"> 160.0 </vne>
+    
+    <axes>
+      <roll>
+        <curvature> 0.0 </curvature>
+        <deadzone>  0.0 </deadzone>
+      </roll>
+        
+      <pitch>
+        <curvature> 1.0 </curvature>
+        <deadzone>  0.0 </deadzone>
+      </pitch>
+        
+      <yaw>
+        <curvature> 0.6 </curvature>
+        <deadzone>  0.0 </deadzone>
+      </yaw>
+    </axes>
     
     <controls>
       <flaps>
@@ -149,6 +189,23 @@
     </camera_offset>
     
     <vne unit="mph"> 505.0 </vne>
+    
+    <axes>
+      <roll>
+        <curvature> 0.0 </curvature>
+        <deadzone>  0.0 </deadzone>
+      </roll>
+        
+      <pitch>
+        <curvature> 1.0 </curvature>
+        <deadzone>  0.0 </deadzone>
+      </pitch>
+        
+      <yaw>
+        <curvature> 0.6 </curvature>
+        <deadzone>  0.0 </deadzone>
+      </yaw>
+    </axes>
 
     <controls>
       <landing_gear />

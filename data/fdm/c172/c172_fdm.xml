@@ -610,27 +610,21 @@
     <!-- [rad] ailerons deflection vs [-] normalized roll input -->
     <control_channel name="ailerons" unit="deg">
       -1.0  -17.5
-      -0.5   -7.0
        0.0    0.0
-       0.5    7.0
        1.0   17.5
     </control_channel>
     
     <!-- [rad] elevator deflection vs [-] normalized pitch input -->
     <control_channel name="elevator" unit="deg">
       -1.0  -28.0
-      -0.5   -5.0
        0.0    0.0
-       0.5    4.0
        1.0   23.0
     </control_channel>
     
     <!-- [rad] rudder deflection vs [-] normalized yaw input -->
     <control_channel name="rudder" unit="deg">
       -1.0  -17.7
-      -0.5   -7.0
        0.0    0.0
-       0.5    7.0
        1.0   17.7
     </control_channel>
     
@@ -662,9 +656,7 @@
     <!-- [rad] nose wheel turn angle vs [-] normalized nose wheel steering input -->
     <control_channel name="nose_wheel" unit="deg">
       -1.0  -10.0
-      -0.5   -2.0
        0.0    0.0
-       0.5    2.0
        1.0   10.0
     </control_channel>
     
