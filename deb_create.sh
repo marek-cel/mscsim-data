@@ -2,11 +2,12 @@
 
 ################################################################################
 
+APP_NAME=mscsim
 APP_VER=0.3
 
 ################################################################################
 
-DATA_DIR=mscsim-data_${APP_VER}_bionic_all
+DATA_DIR=${APP_NAME}-data_${APP_VER}_bionic_all
 
 sudo rm -R $DATA_DIR
 sudo rm $DATA_DIR.deb
