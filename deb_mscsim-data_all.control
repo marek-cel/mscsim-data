@@ -3,6 +3,6 @@ Version: 0.3
 Architecture: all
 Maintainer: Marek M. Cel <marekcel@marekcel.pl>
 Depends:
-Installed-Size: 1186461 
+Installed-Size: 1182273
 Homepage: http://marekcel.pl
 Description: MScSim flight simulator data.
