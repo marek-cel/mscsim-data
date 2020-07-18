@@ -23,16 +23,19 @@
       <roll>
         <curvature> 0.0 </curvature>
         <deadzone>  0.0 </deadzone>
+        <scale>     1.0 </scale>
       </roll>
         
       <pitch>
         <curvature> 1.0 </curvature>
         <deadzone>  0.0 </deadzone>
+        <scale>     0.5 </scale>
       </pitch>
         
       <yaw>
         <curvature> 1.0 </curvature>
         <deadzone>  0.0 </deadzone>
+        <scale>     0.5 </scale>
       </yaw>
     </axes>
 
@@ -89,16 +92,19 @@
       <roll>
         <curvature> 0.0 </curvature>
         <deadzone>  0.0 </deadzone>
+        <scale>     1.0 </scale>
       </roll>
         
       <pitch>
         <curvature> 1.0 </curvature>
         <deadzone>  0.0 </deadzone>
+        <scale>     0.5 </scale>
       </pitch>
         
       <yaw>
         <curvature> 0.6 </curvature>
         <deadzone>  0.0 </deadzone>
+        <scale>     0.5 </scale>
       </yaw>
     </axes>
     
@@ -148,6 +154,14 @@
     </camera_offset>
     
     <vne unit="kts"> 800.0 </vne>
+    
+    <axes>        
+      <yaw>
+        <curvature> 0.0 </curvature>
+        <deadzone>  0.0 </deadzone>
+        <scale>     0.5 </scale>
+      </yaw>
+    </axes>
 
     <controls>
       <landing_gear />
@@ -194,16 +208,19 @@
       <roll>
         <curvature> 0.0 </curvature>
         <deadzone>  0.0 </deadzone>
+        <scale>     1.0 </scale>
       </roll>
         
       <pitch>
         <curvature> 1.0 </curvature>
         <deadzone>  0.0 </deadzone>
+        <scale>     0.7 </scale>
       </pitch>
         
       <yaw>
         <curvature> 0.6 </curvature>
         <deadzone>  0.0 </deadzone>
+        <scale>     0.5 </scale>
       </yaw>
     </axes>
 
