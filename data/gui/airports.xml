@@ -287,4 +287,18 @@
       
   </airport>
   
+  <!-- BB-63 -->
+  <airport>
+    <name>(BB-63) USS Missouri</name>
+    
+    <location>
+      <name>Helideck</name>
+      <lat>21.361525</lat>
+      <lon>-157.954210</lon>
+      <alt>0.0</alt>
+      <hdg>52.0</hdg>
+    </location>
+  
+  </airport>
+  
 </airports>

@@ -1,3 +1,25 @@
+2020-07-25 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * AW101 and R44 FDM data
+    
+    * X/F and X/H FDM data
+    
+    * GUI aircrafts masses
+    
+    * GUI aircrafts AW101, F-35A and R44, X/F and X/H
+    
+    * GUI BB-63 (USS Missouri) helideck location
+    
+    * SFX R44 propulsion sound
+    
+    * CGI F-35 entity data
+    
+    * F-35 3D model
+    
+    * F-16 textures
+
+
+
 2020-07-18 Marek M. Cel <marekcel@marekcel.pl>
     
     * aircraft controls scaling factors
