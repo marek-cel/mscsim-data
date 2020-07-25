@@ -2,6 +2,7 @@
 <aircraft>
   
   <model>data/cgi/entities/aw101.osgb</model>
+  <shadow>data/cgi/entities/aw101_shadow.png</shadow>
   
   <rotor>
     <rotor_center>

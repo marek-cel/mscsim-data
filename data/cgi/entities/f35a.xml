@@ -2,6 +2,7 @@
 <aircraft>
   
   <model>data/cgi/entities/f35a.osgb</model>
+  <shadow>data/cgi/entities/f35a_shadow.png</shadow>
   
   <wing_tip_l>
     <x>  -2.89  </x>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aircraft>
   <model>data/cgi/entities/c172.osgb</model>
+  <shadow>data/cgi/entities/c172_shadow.png</shadow>
   
   <wing_tip_l>
     <x>  -0.91  </x>

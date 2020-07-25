@@ -2,6 +2,7 @@
 <aircraft>
   
   <model>data/cgi/entities/uh60.osgb</model>
+  <shadow>data/cgi/entities/uh60_shadow.png</shadow>
   
   <rotor>
     <rotor_center>

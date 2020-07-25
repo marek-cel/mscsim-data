@@ -2,6 +2,7 @@
 <aircraft>
   
   <model>data/cgi/entities/r44.osgb</model>
+  <shadow>data/cgi/entities/r44_shadow.png</shadow>
   
   <rotor>
     <rotor_center>
