@@ -599,6 +599,17 @@
         </pid>
       </sas_yaw>
       
+      <collective>
+        <pid>
+          <kp> 2.0 </kp>
+          <ki> 0.0 </ki>
+          <kd> 0.0 </kd>
+          
+          <min> -0.03 </min>
+          <max>  0.03 </max>
+        </pid>
+      </collective>
+      
     </afcs>
     
   </controls>
