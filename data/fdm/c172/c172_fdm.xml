@@ -678,6 +678,8 @@
       <friction_rolling>  0.02  </friction_rolling>                 <!-- [-] coefficient of rolling friction -->
       
       <max_angle unit="deg"> 10.0 </max_angle>                      <!-- [rad] max turn angle -->
+      
+      <d_max> 0.1 </d_max>                                          <!-- [m] maximum distance for static friction spring like model -->
     </wheel>
     
     <!-- left wheel -->
@@ -691,6 +693,8 @@
       <friction_static>   0.95  </friction_static>                  <!-- [-] coefficient of static friction -->
       <friction_kinetic>  0.75  </friction_kinetic>                 <!-- [-] coefficient of kinetic friction -->
       <friction_rolling>  0.02  </friction_rolling>                 <!-- [-] coefficient of rolling friction -->
+      
+      <d_max> 0.1 </d_max>                                          <!-- [m] maximum distance for static friction spring like model -->
     </wheel>
     
     <!-- right wheel -->
@@ -704,6 +708,8 @@
       <friction_static>   0.95  </friction_static>                  <!-- [-] coefficient of static friction -->
       <friction_kinetic>  0.75  </friction_kinetic>                 <!-- [-] coefficient of kinetic friction -->
       <friction_rolling>  0.02  </friction_rolling>                 <!-- [-] coefficient of rolling friction -->
+      
+      <d_max> 0.1 </d_max>                                          <!-- [m] maximum distance for static friction spring like model -->
     </wheel>
     
   </landing_gear>

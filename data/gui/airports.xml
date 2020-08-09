@@ -287,16 +287,16 @@
       
   </airport>
   
-  <!-- BB-63 -->
+  <!-- LCS-1 -->
   <airport>
-    <name>(BB-63) USS Missouri</name>
+    <name>(LCS-1) USS Freedom</name>
     
     <location>
       <name>Helideck</name>
-      <lat>21.361525</lat>
-      <lon>-157.954210</lon>
+      <lat>21.35335</lat>
+      <lon>-157.9685</lon>
       <alt>0.0</alt>
-      <hdg>52.0</hdg>
+      <hdg>180.0</hdg>
     </location>
   
   </airport>
