@@ -23,15 +23,46 @@
       <alt>3.0</alt>
     </airport>
     
-    <airport>
-      <name>Ford Island</name>
-      <icao>PHNP</icao>
-      <file>data/cgi/scenery/airports/phnp.osgb</file>
+  </airports>
+  
+  <landmarks>
+    
+    <!-- Ford Island -->
+    <landmark>
+      <file>data/cgi/scenery/landmarks/ford_island.osgb</file>
       <lat>21.360556</lat>
       <lon>-157.961389</lon>
       <alt>3.0</alt>
-    </airport>
+      <hdg>0.0</hdg>
+    </landmark>
     
-  </airports>
+    <!-- Arizona Memorial -->
+    <landmark reflection="1">
+      <file>data/cgi/scenery/landmarks/arizona_memorial.osgb</file>
+      <lat>21.3646833</lat>
+      <lon>-157.9498556</lon>
+      <alt>0.0</alt>
+      <hdg>145.0</hdg>
+    </landmark>
+    
+    <!-- USS Missouri -->
+    <landmark reflection="1">
+      <file>data/cgi/scenery/landmarks/uss_missouri.osgb</file>
+      <lat>21.3621139</lat>
+      <lon>-157.9534528</lon>
+      <alt>0.0</alt>
+      <hdg>46.0</hdg>
+    </landmark>
+    
+    <!-- Hickam Water Tower -->
+    <!--<landmark reflection="1">
+      <file>data/cgi/scenery/landmarks/hickam_water_tower.osgb</file>
+      <lat>21.342878</lat>
+      <lon>-157.9627302</lon>
+      <alt>9.0</alt>
+      <hdg>46.0</hdg>
+    </landmark>-->
+    
+  </landmarks>
   
 </scenery>

@@ -293,7 +293,7 @@
 
   <aircraft>
   
-    <name>P-51</name>
+    <name>Mustang Mk III</name>
     <type>6</type>
     <file>data/cgi/entities/p51.xml</file>
     
