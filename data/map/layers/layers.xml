@@ -2,7 +2,7 @@
 <layers>
   
   <landmass>
-    <file>data/map/layers/bnd_polbnd.osgb</file>
+    <file>data/map/layers/bnd_polbnd_without_hawaii.osgb</file>
     <file>data/map/layers/hawaii_landmass.osgb</file>
     <file>data/map/layers/xgen_landmass.osgb</file>
   </landmass>
