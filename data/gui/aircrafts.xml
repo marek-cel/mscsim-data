@@ -384,11 +384,10 @@
       <collective />
     </controls>
     
-    <propulsion engines="2">
-      <ng />
-      <n2 />
-      <trq />
-      <itt />
+    <propulsion engines="1">
+      <rpm />
+      <map />
+      <egt />
     </propulsion>
     
     <main_rotor_coef> -1.0 </main_rotor_coef>
