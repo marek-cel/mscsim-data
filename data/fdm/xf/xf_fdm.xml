@@ -1594,7 +1594,7 @@
     <airbrake_max unit="deg"> 60.0 </airbrake_max>
     
     <!-- [-] normalized roll command vs [-] normalized roll input -->
-    <control_channel name="roll">
+    <control_channel name="roll" input="input.controls.roll">
       -1.0    308.0
       -0.647   80.0
       -0.353   20.0
@@ -1607,7 +1607,7 @@
     </control_channel>
     
     <!-- [-] normalized pitch command vs [-] normalized pitch input -->
-    <control_channel name="pitch">
+    <control_channel name="pitch" input="input.controls.pitch">
       -1.0     10.86
       -0.181    0.44
       -0.044    0.0
@@ -1619,7 +1619,7 @@
     </control_channel>
     
     <!-- [-] normalized yaw command vs [-] normalized yaw input -->
-    <control_channel name="yaw">
+    <control_channel name="yaw" input="input.controls.yaw">
       -1.0    -30.0
       -0.125    0.0
        0.0      0.0
@@ -1628,46 +1628,46 @@
     </control_channel>
     
     <!-- [-] normalized roll trim vs [-] normalized roll trim input -->
-    <control_channel name="roll_trim">
+    <control_channel name="roll_trim" input="input.controls.trim_roll">
       -1.0     40.0
        0.0      0.0
        1.0    -40.0
     </control_channel>
     
     <!-- [-] normalized pitch trim vs [-] normalized pitch trim input -->
-    <control_channel name="pitch_trim">
+    <control_channel name="pitch_trim" input="input.controls.trim_pitch">
       -1.0      2.4
        0.0      0.0
        1.0     -2.4
     </control_channel>
     
     <!-- [-] normalized yaw trim vs [-] normalized yaw trim input -->
-    <control_channel name="yaw_trim">
+    <control_channel name="yaw_trim" input="input.controls.trim_yaw">
       -1.0     -8.0
        0.0      0.0
        1.0      8.0
     </control_channel>
     
     <!-- [-] normalized airbrake deflection vs [-] normalized airbrake input -->
-    <control_channel name="airbrake">
+    <control_channel name="airbrake" input="input.controls.airbrake">
        0.0      0.0
        1.0      1.0
     </control_channel>
     
     <!-- [-] normalized left brake force vs [-] normalized left brake input -->
-    <control_channel name="brake_l">
+    <control_channel name="brake_left" input="input.controls.brake_left">
        0.0      0.0
        1.0      1.0
     </control_channel>
     
     <!-- [-] normalized right brake force vs [-] normalized right brake input -->
-    <control_channel name="brake_r">
+    <control_channel name="brake_right" input="input.controls.brake_right">
        0.0      0.0
        1.0      1.0
     </control_channel>
     
     <!-- [rad] nose wheel turn angle vs [-] normalized nose wheel steering input -->
-    <control_channel name="nose_wheel" unit="deg">
+    <control_channel name="nose_wheel" input="input.controls.wheel_nose" unit="deg">
       -1.0    -10.0
       -0.5     -2.0
       -0.1      0.0
@@ -1683,7 +1683,7 @@
   <landing_gear>
     
     <!-- nose wheel -->
-    <wheel name="wheel_n" steerable="1" caster="1" brake_group="0">
+    <wheel name="wheel_n" steerable="1" caster="1" brake_group="0" input="input.controls.landing_gear">
       <attachment_point>  4.95  0.0   0.0   </attachment_point>     <!-- [m] strut attachment point coordinates expressed in BAS -->
       <unloaded_wheel>    4.95  0.0   2.25  </unloaded_wheel>       <!-- [m] unloaded wheel coordinates expressed in BAS -->
       
@@ -1697,10 +1697,11 @@
       <max_angle unit="deg"> 10.0 </max_angle>                      <!-- [rad] max turn angle -->
       
       <d_max> 0.2 </d_max>                                          <!-- [m] maximum distance for static friction spring like model -->
+      <v_max> 0.5 </v_max>                                          <!-- [m/s] maximum velocity for continuous friction model -->
     </wheel>
     
     <!-- left wheel -->
-    <wheel name="wheel_l" steerable="0" caster="0" brake_group="1">
+    <wheel name="wheel_l" steerable="0" caster="0" brake_group="1" input="input.controls.landing_gear">
       <attachment_point> -0.54  -2.08  0.0   </attachment_point>    <!-- [m] strut attachment point coordinates expressed in BAS -->
       <unloaded_wheel>   -0.54  -2.08  2.25  </unloaded_wheel>      <!-- [m] unloaded wheel coordinates expressed in BAS -->
       
@@ -1712,10 +1713,11 @@
       <friction_rolling>  0.02  </friction_rolling>                 <!-- [-] coefficient of rolling friction -->
       
       <d_max> 0.2 </d_max>                                          <!-- [m] maximum distance for static friction spring like model -->
+      <v_max> 0.5 </v_max>                                          <!-- [m/s] maximum velocity for continuous friction model -->
     </wheel>
     
     <!-- right wheel -->
-    <wheel name="wheel_r" steerable="0" caster="0" brake_group="2">
+    <wheel name="wheel_r" steerable="0" caster="0" brake_group="2" input="input.controls.landing_gear">
       <attachment_point> -0.54   2.08  0.0   </attachment_point>    <!-- [m] strut attachment point coordinates expressed in BAS -->
       <unloaded_wheel>   -0.54   2.08  2.25  </unloaded_wheel>      <!-- [m] unloaded wheel coordinates expressed in BAS -->
       
@@ -1727,6 +1729,7 @@
       <friction_rolling>  0.02  </friction_rolling>                 <!-- [-] coefficient of rolling friction -->
       
       <d_max> 0.2 </d_max>                                          <!-- [m] maximum distance for static friction spring like model -->
+      <v_max> 0.5 </v_max>                                          <!-- [m/s] maximum velocity for continuous friction model -->
     </wheel>
     
   </landing_gear>
@@ -1746,13 +1749,13 @@
     <center_of_mass> -0.36  0.0  0.0 </center_of_mass>  <!-- [m] empty aircraft center of mass coordinates expressed in BAS -->
     
     <!-- pilot -->
-    <variable_mass name="pilot">
+    <variable_mass name="pilot" input="input.masses.pilot_1">
       <mass_max> 120.0 </mass_max>                      <!-- [kg] maximum mass -->
       <coordinates>  4.1  0.0 -0.7 </coordinates>       <!-- [m] coordinates expressed in BAS -->
     </variable_mass>
     
     <!-- fuel tank -->
-    <variable_mass name="fuel_tank">
+    <variable_mass name="fuel_tank" input="input.masses.tank_1">
       <mass_max> 8165.0 </mass_max>                     <!-- [kg] maximum mass -->
       <coordinates>  0.0  0.0   0.0  </coordinates>     <!-- [m] coordinates expressed in BAS --> <!-- TODO -->
     </variable_mass>

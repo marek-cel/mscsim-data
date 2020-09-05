@@ -387,7 +387,7 @@
     <propulsion engines="1">
       <rpm />
       <map />
-      <egt />
+      <cht />
     </propulsion>
     
     <main_rotor_coef> -1.0 </main_rotor_coef>
@@ -498,11 +498,11 @@
       <fuel_tank_1 name="Fuel Tank"  maximum="8165.0"  default="8165.0" />
     </masses>
       
-  </aircraft>
+  </aircraft>-->
   
   
   
-  <aircraft>
+  <!--<aircraft>
     
     <name>X/H</name>
     <type>902</type>

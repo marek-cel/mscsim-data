@@ -807,46 +807,46 @@
   <controls>
     
     <!-- [rad] lateral cyclic pitch vs [-] normalized roll input -->
-    <control_channel name="cyclic_lat" unit="deg">
+    <control_channel name="cyclic_lat" input="input.controls.roll" unit="deg">
       -1.0    8.0
        0.0    0.0
        1.0   -8.0
     </control_channel>
     
     <!-- [rad] longitudinal cyclic pitch vs [-] normalized pitch input -->
-    <control_channel name="cyclic_lon" unit="deg">
+    <control_channel name="cyclic_lon" input="input.controls.pitch" unit="deg">
       -1.0   12.3
        1.0  -16.5
     </control_channel>
     
     <!-- [rad] elevator deflection vs [-] normalized pitch input -->
-    <control_channel name="elevator" unit="deg">
+    <control_channel name="elevator" input="input.controls.pitch" unit="deg">
       -1.0  -30.0
        0.0    0.0
        1.0   35.0
     </control_channel>
     
     <!-- [rad] collective pitch vs [-] normalized collective input -->
-    <control_channel name="collective" unit="deg">
+    <control_channel name="collective" input="input.controls.collective" unit="deg">
        0.0    9.9
        1.0   25.9
     </control_channel>
     
     <!-- [rad] tail collective pitch vs [-] normalized yaw input -->
-    <control_channel name="tail_pitch" unit="deg">
+    <control_channel name="tail_pitch" input="input.controls.yaw" unit="deg">
       -1.0    0.1
        0.0   15.0
        1.0   29.9
     </control_channel>
     
     <!-- [-] normalized left brake force vs [-] normalized left brake input -->
-    <control_channel name="brake_l">
+    <control_channel name="brake_left" input="input.controls.brake_left">
        0.0    0.0
        1.0    1.0
     </control_channel>
     
     <!-- [-] normalized right brake force vs [-] normalized right brake input -->
-    <control_channel name="brake_r">
+    <control_channel name="brake_right" input="input.controls.brake_right">
        0.0    0.0
        1.0    1.0
     </control_channel>
@@ -869,6 +869,7 @@
       <friction_rolling>  0.02  </friction_rolling>                 <!-- [-] coefficient of rolling friction -->
       
       <d_max> 0.2 </d_max>                                          <!-- [m] maximum distance for static friction spring like model -->
+      <v_max> 0.5 </v_max>                                          <!-- [m/s] maximum velocity for continuous friction model -->
     </wheel>
     
     <!-- right wheel -->
@@ -884,6 +885,7 @@
       <friction_rolling>  0.02  </friction_rolling>                 <!-- [-] coefficient of rolling friction -->
       
       <d_max> 0.2 </d_max>                                          <!-- [m] maximum distance for static friction spring like model -->
+      <v_max> 0.5 </v_max>                                          <!-- [m/s] maximum velocity for continuous friction model -->
     </wheel>
     
     <!-- tail wheel -->
@@ -899,6 +901,7 @@
       <friction_rolling>  0.02  </friction_rolling>                 <!-- [-] coefficient of rolling friction -->
       
       <d_max> 0.2 </d_max>                                          <!-- [m] maximum distance for static friction spring like model -->
+      <v_max> 0.5 </v_max>                                          <!-- [m/s] maximum velocity for continuous friction model -->
     </wheel>
     
   </landing_gear>
@@ -918,25 +921,25 @@
     <center_of_mass> -0.15 0.0 -0.25 </center_of_mass>  <!-- [m] empty aircraft center of mass coordinates expressed in BAS -->
     
      <!-- left pilot -->
-    <variable_mass name="pilot_l">
+    <variable_mass name="pilot_l" input="input.masses.pilot_1">
       <mass_max> 120.0 </mass_max>                      <!-- [kg] maximum mass -->
       <coordinates>  2.9 -0.7  0.5 </coordinates>       <!-- [m] coordinates expressed in BAS -->
     </variable_mass>
     
     <!-- right pilot -->
-    <variable_mass name="pilot_r">
+    <variable_mass name="pilot_r" input="input.masses.pilot_2">
       <mass_max> 120.0 </mass_max>                      <!-- [kg] maximum mass -->
       <coordinates>  2.9  0.7  0.5 </coordinates>       <!-- [m] coordinates expressed in BAS -->
     </variable_mass>
     
     <!-- fuel tank -->
-    <variable_mass name="fuel_tank">
+    <variable_mass name="fuel_tank" input="input.masses.tank_1">
       <mass_max>  1100.0 </mass_max>                    <!-- [kg] maximum mass -->
       <coordinates> -2.02  0.0  0.8 </coordinates>      <!-- [m] coordinates expressed in BAS -->
     </variable_mass>
     
     <!-- cabin_load -->
-    <variable_mass name="cabin">
+    <variable_mass name="cabin" input="input.masses.cabin">
       <mass_max> 1200.0 </mass_max>                     <!-- [kg] maximum mass -->
       <coordinates>  0.0  0.0  0.6 </coordinates>       <!-- [m] coordinates expressed in BAS -->
     </variable_mass>

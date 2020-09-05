@@ -468,47 +468,47 @@
   <controls>
     
     <!-- [rad] ailerons deflection vs [-] normalized roll input -->
-    <control_channel name="ailerons" unit="deg">
+    <control_channel name="ailerons" input="input.controls.roll" unit="deg">
       -1.0  -15.0
        0.0    0.0
        1.0   15.0
     </control_channel>
     
     <!-- [rad] elevator deflection vs [-] normalized pitch input -->
-    <control_channel name="elevator" unit="deg">
+    <control_channel name="elevator" input="input.controls.pitch" unit="deg">
       -1.0  -30.0
        0.0    0.0
        1.0   20.0
     </control_channel>
     
     <!-- [rad] rudder deflection vs [-] normalized yaw input -->
-    <control_channel name="rudder" unit="deg">
+    <control_channel name="rudder" input="input.controls.yaw" unit="deg">
       -1.0  -30.0
        0.0    0.0
        1.0   30.0
     </control_channel>
     
     <!-- [rad] elevator trim deflection vs [-] normalized pitch trim input -->
-    <control_channel name="elevator_trim" unit="deg">
+    <control_channel name="elevator_trim" input="input.controls.trim_pitch" unit="deg">
       -1.0  -20.0
        0.0    0.0
        1.0   20.0
     </control_channel>
     
     <!-- [rad] flaps deflection vs [-] normalized flaps input -->
-    <control_channel name="flaps" unit="deg">
+    <control_channel name="flaps" input="input.controls.flaps" unit="deg">
        0.0    0.0
        1.0   47.0
     </control_channel>
     
     <!-- [-] normalized left brake force vs [-] normalized left brake input -->
-    <control_channel name="brake_l">
+    <control_channel name="brake_left" input="input.controls.brake_left">
        0.0    0.0
        1.0    1.0
     </control_channel>
     
     <!-- [-] normalized right brake force vs [-] normalized right brake input -->
-    <control_channel name="brake_r">
+    <control_channel name="brake_right" input="input.controls.brake_right">
        0.0    0.0
        1.0    1.0
     </control_channel>
@@ -519,7 +519,7 @@
   <landing_gear>
     
     <!-- left wheel -->
-    <wheel name="wheel_l" steerable="0" caster="0" brake_group="1">
+    <wheel name="wheel_l" steerable="0" caster="0" brake_group="1" input="input.controls.landing_gear">
       <attachment_point>   0.47  -1.86  0.5  </attachment_point>    <!-- [m] strut attachment point coordinates expressed in BAS -->
       <unloaded_wheel>     0.86  -1.86  2.5  </unloaded_wheel>      <!-- [m] unloaded wheel coordinates expressed in BAS -->
       
@@ -531,10 +531,11 @@
       <friction_rolling>  0.02  </friction_rolling>                 <!-- [-] coefficient of rolling friction -->
       
       <d_max> 0.1 </d_max>                                          <!-- [m] maximum distance for static friction spring like model -->
+      <v_max> 0.5 </v_max>                                          <!-- [m/s] maximum velocity for continuous friction model -->
     </wheel>
     
     <!-- right wheel -->
-    <wheel name="wheel_r" steerable="0" caster="0" brake_group="2">
+    <wheel name="wheel_r" steerable="0" caster="0" brake_group="2" input="input.controls.landing_gear">
       <attachment_point>   0.47   1.86  0.5  </attachment_point>    <!-- [m] strut attachment point coordinates expressed in BAS -->
       <unloaded_wheel>     0.86   1.86  2.5  </unloaded_wheel>      <!-- [m] unloaded wheel coordinates expressed in BAS -->
       
@@ -546,10 +547,11 @@
       <friction_rolling>  0.02 </friction_rolling>                  <!-- [-] coefficient of rolling friction -->
       
       <d_max> 0.1 </d_max>                                          <!-- [m] maximum distance for static friction spring like model -->
+      <v_max> 0.5 </v_max>                                          <!-- [m/s] maximum velocity for continuous friction model -->
     </wheel>
     
     <!-- tail wheel -->
-    <wheel name="wheel_t" steerable="0" caster="1" brake_group="0">
+    <wheel name="wheel_t" steerable="0" caster="1" brake_group="0" input="input.controls.landing_gear">
       <attachment_point>  -4.67   0.0  0.0  </attachment_point>     <!-- [m] strut attachment point coordinates expressed in BAS -->
       <unloaded_wheel>    -4.67   0.0  1.0  </unloaded_wheel>       <!-- [m] unloaded wheel coordinates expressed in BAS -->
       
@@ -561,6 +563,7 @@
       <friction_rolling>  0.02  </friction_rolling>                 <!-- [-] coefficient of rolling friction -->
       
       <d_max> 0.1 </d_max>                                          <!-- [m] maximum distance for static friction spring like model -->
+      <v_max> 0.5 </v_max>                                          <!-- [m/s] maximum velocity for continuous friction model -->
     </wheel>
     
   </landing_gear>
@@ -580,19 +583,19 @@
     <center_of_mass> -0.20 0.0  0.21  </center_of_mass> <!-- [m] empty aircraft center of mass coordinates expressed in BAS -->
     
      <!-- pilot -->
-    <variable_mass name="pilot">
+    <variable_mass name="pilot" input="input.masses.pilot_1">
       <mass_max> 120.0 </mass_max>                      <!-- [kg] maximum mass -->
       <coordinates>  -0.8   0.0  -0.6  </coordinates>   <!-- [m] coordinates expressed in BAS -->
     </variable_mass>
     
     <!-- left fuel tank -->
-    <variable_mass name="fuel_tank_l">
+    <variable_mass name="fuel_tank_l" input="input.masses.tank_1">
       <mass_max> 280.0 </mass_max>                      <!-- [kg] maximum mass -->
       <coordinates>  -0.2  -0.2   0.7  </coordinates>   <!-- [m] coordinates expressed in BAS -->
     </variable_mass>
     
     <!-- right fuel tank -->
-    <variable_mass name="fuel_tank_r">
+    <variable_mass name="fuel_tank_r" input="input.masses.tank_2">
       <mass_max> 280.0 </mass_max>                      <!-- [kg] maximum mass -->
       <coordinates>  -0.2   0.2   0.7  </coordinates>   <!-- [m] coordinates expressed in BAS -->
     </variable_mass>
