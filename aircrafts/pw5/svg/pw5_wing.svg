@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="29.700001cm"
+   height="21cm"
+   viewBox="0 0 297.00001 209.99999"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="pw5_wing.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="632.4772"
+     inkscape:cy="426.32314"
+     inkscape:document-units="cm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     units="cm"
+     inkscape:object-paths="false"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="false"
+     inkscape:object-nodes="true"
+     inkscape:snap-midpoints="false"
+     inkscape:snap-global="true"
+     inkscape:snap-center="true"
+     inkscape:snap-others="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Pasted"
+     style="display:inline"
+     transform="translate(0,-87.000008)" />
+  <g
+     inkscape:label="Drawing"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(0,-87.000008)">
+    <g
+       id="g824"
+       transform="translate(1.9298532,18.659584)">
+      <g
+         id="g908"
+         style="display:inline">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 168.77017,169.73928 -54.4,-1.4 v 10 l 64.39996,-3.07794 v -2 c 0,0 -0.95878,-0.57981 -1.42845,-0.83399 -0.46967,-0.25418 -0.93203,-0.48769 -1.38646,-0.69323 -0.45443,-0.20554 -0.8977,-0.37462 -1.33635,-0.54289 -0.43865,-0.16827 -0.83247,-0.31652 -1.29458,-0.46772 -0.46211,-0.1512 -0.99911,-0.30952 -1.47834,-0.43431 -0.47923,-0.12479 -0.88205,-0.22377 -1.39481,-0.31739 -0.51276,-0.0936 -1.68097,-0.23253 -1.68097,-0.23253 z"
+           id="path1051"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccczzzzzzc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 143.77017,176.93413 v -1.57001 l 24.96001,-1.06293 v 1.44001"
+           id="path895"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 129.36017,172.55928 v 0.44 l 13.08999,-0.10001 v -0.43999 z"
+           id="path903"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
+</svg>
