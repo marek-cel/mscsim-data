@@ -6,17 +6,17 @@
       <ID>KFSSVRGVXX</ID>
       <Name>Vehicle</Name>
       <AdjustView>
-        <CORX Value="0.000000000000000000e+00" ID="LJDLMDTSKWT"/>
-        <CORY Value="0.000000000000000000e+00" ID="WASGWJOXRCF"/>
-        <CORZ Value="0.000000000000000000e+00" ID="YKXHSWNMKYV"/>
-        <PanX Value="0.000000000000000000e+00" ID="OJJTEBFAWBC"/>
-        <PanY Value="0.000000000000000000e+00" ID="OHYXXWRZDRL"/>
-        <RotationX Value="6.168477028127330897e+01" ID="ZSACXCZAGNJ"/>
-        <RotationY Value="4.079465719535681956e+01" ID="FNGDEHIXTLY"/>
-        <RotationZ Value="4.392505583537872127e+01" ID="YMNSVZIXXHP"/>
-        <ViewportX Value="0.000000000000000000e+00" ID="BBKEXIURGBG"/>
-        <ViewportY Value="0.000000000000000000e+00" ID="OIHGPGHXESO"/>
-        <Zoom Value="1.111495681107044220e-02" ID="CADZNSJLPZW"/>
+        <CORX Value="0.000000000000000000e+00" ID="DKFEZCZOBTU"/>
+        <CORY Value="0.000000000000000000e+00" ID="KVTSLTQFCDU"/>
+        <CORZ Value="0.000000000000000000e+00" ID="DXZAHEXMBAW"/>
+        <PanX Value="0.000000000000000000e+00" ID="IGXMFLOYIYV"/>
+        <PanY Value="0.000000000000000000e+00" ID="BSHUIMYNIBL"/>
+        <RotationX Value="0.000000000000000000e+00" ID="CJLPZMXYHYQ"/>
+        <RotationY Value="0.000000000000000000e+00" ID="QUBCSQMVBWX"/>
+        <RotationZ Value="0.000000000000000000e+00" ID="XJXDAYKXGMI"/>
+        <ViewportX Value="0.000000000000000000e+00" ID="SGJBWFOAYTJ"/>
+        <ViewportY Value="0.000000000000000000e+00" ID="LPZSDVJEWDX"/>
+        <Zoom Value="1.180979888886213303e-02" ID="HBUNYGOAEXG"/>
       </AdjustView>
       <AirfoilExport>
         <AFAppendGeomIDFlag Value="1.000000000000000000e+00" ID="ITJXNSXYYYM"/>
@@ -61,12 +61,12 @@
         <StructUnit Value="3.000000000000000000e+00" ID="FKMDYJVBPVA"/>
       </FeaStructure>
       <FitModel>
-        <Select_Box_Flag Value="0.000000000000000000e+00" ID="ZBCAOLZUGXA"/>
-        <Select_One_Flag Value="0.000000000000000000e+00" ID="IVZPCKZZJAA"/>
-        <U_TargetPt Value="0.000000000000000000e+00" ID="QPJOXEFLKVW"/>
-        <U_Type Value="1.000000000000000000e+00" ID="QLZAAOAWCDE"/>
-        <W_TargetPt Value="0.000000000000000000e+00" ID="YEVOGRQKXHB"/>
-        <W_Type Value="1.000000000000000000e+00" ID="BAQYCBNHXDU"/>
+        <Select_Box_Flag Value="0.000000000000000000e+00" ID="ZFZASZCGNKI"/>
+        <Select_One_Flag Value="0.000000000000000000e+00" ID="SGMTAFCLVPP"/>
+        <U_TargetPt Value="0.000000000000000000e+00" ID="YTEVEBUTHJN"/>
+        <U_Type Value="1.000000000000000000e+00" ID="BLDOGCITBAY"/>
+        <W_TargetPt Value="0.000000000000000000e+00" ID="HCUKKOLNOJG"/>
+        <W_Type Value="1.000000000000000000e+00" ID="NDEOIZKZCOM"/>
       </FitModel>
       <IGESSettings>
         <ExportPropMainSurf Value="0.000000000000000000e+00" ID="HWSALVDOBMJ"/>
@@ -323,7 +323,7 @@
         </ParasiteDragProps>
         <Shape>
           <Tess_U Value="1.600000000000000000e+01" ID="RNTSIWWJQVD"/>
-          <Tess_W Value="7.300000000000000000e+01" ID="DAUTFXHKOKU"/>
+          <Tess_W Value="3.300000000000000000e+01" ID="DAUTFXHKOKU"/>
           <Wake Value="0.000000000000000000e+00" ID="HRDFNLUZLOO"/>
         </Shape>
         <Sym>
@@ -335,11 +335,11 @@
         </Sym>
         <WingGeom>
           <LECluster Value="2.500000000000000000e-01" ID="BDHCSEGIBZH"/>
-          <MaxGrowth Value="1.179804912173592291e+00" ID="XBVCHDFINGC"/>
+          <MaxGrowth Value="1.437005756083839181e+00" ID="XBVCHDFINGC"/>
           <RelativeDihedralFlag Value="0.000000000000000000e+00" ID="WJOMRIUGOSH"/>
           <RelativeTwistFlag Value="0.000000000000000000e+00" ID="SLZVWOASUNQ"/>
           <RotateAirfoilMatchDideralFlag Value="0.000000000000000000e+00" ID="YIPRYXTPLPY"/>
-          <SmallPanelW Value="1.411633815933615839e-03" ID="FQQHSKVWOWB"/>
+          <SmallPanelW Value="3.771370060995491661e-03" ID="FQQHSKVWOWB"/>
           <TECluster Value="2.500000000000000000e-01" ID="ZSGNUZGEHCO"/>
           <TotalAR Value="1.778528085586087570e+01" ID="THXOAABTOEE"/>
           <TotalArea Value="1.015355799999999853e+01" ID="TZVTZOARRIG"/>
@@ -544,7 +544,7 @@
                 <Root_Chord Value="1.000000000000000000e+00" ID="PANHBHOQPEC"/>
                 <Sec_Sweep Value="0.000000000000000000e+00" ID="WRLVXEOTYPI"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="KHZOVUOKCTT"/>
-                <SectTess_U Value="6.000000000000000000e+00" ID="YIUPVIUAENO"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="YIUPVIUAENO"/>
                 <Span Value="2.800000000000000266e-01" ID="YUPRVSBTENI"/>
                 <Sweep Value="0.000000000000000000e+00" ID="CJORRJRYZHA"/>
                 <Sweep_Location Value="3.499999999999999778e-01" ID="PQDWEUNIWKZ"/>
@@ -655,7 +655,7 @@
                 <Root_Chord Value="1.000000000000000000e+00" ID="RUGYAARSFPT"/>
                 <Sec_Sweep Value="-2.732232808751588582e+00" ID="SGFHDDUTVKH"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="DWKHQFECMAN"/>
-                <SectTess_U Value="3.800000000000000000e+01" ID="PYGOHDTFPTO"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="PYGOHDTFPTO"/>
                 <Span Value="2.942000000000000171e+00" ID="UJGTVEGTTQF"/>
                 <Sweep Value="0.000000000000000000e+00" ID="ULVQQVBOFVK"/>
                 <Sweep_Location Value="3.499999999999999778e-01" ID="LTMNKFVBYPH"/>
@@ -766,7 +766,7 @@
                 <Root_Chord Value="7.840000000000000302e-01" ID="VSSAFZTYCSV"/>
                 <Sec_Sweep Value="-2.742227517413738713e+00" ID="OMRTMVHIYKN"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="WTXTAHRNUUV"/>
-                <SectTess_U Value="3.200000000000000000e+01" ID="PZZMHLYNCGI"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="PZZMHLYNCGI"/>
                 <Span Value="2.496999999999999886e+00" ID="MQGYOFNFTRD"/>
                 <Sweep Value="0.000000000000000000e+00" ID="CIUANIPHOKB"/>
                 <Sweep_Location Value="3.499999999999999778e-01" ID="IKJHFHLXDAJ"/>
@@ -877,7 +877,7 @@
                 <Root_Chord Value="5.999999999999999778e-01" ID="CXTBALCXMIC"/>
                 <Sec_Sweep Value="-2.632325755172389314e+00" ID="JUWVDXEGWWF"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="LAQIGYHCDCP"/>
-                <SectTess_U Value="3.000000000000000000e+00" ID="WJEHJXFTQDY"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="WJEHJXFTQDY"/>
                 <Span Value="1.000000000000000056e-01" ID="WNWOWZBPYWB"/>
                 <Sweep Value="7.070000000000000284e+00" ID="VNVQADYKAAJ"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="UEKFIJTSNFM"/>
@@ -988,7 +988,7 @@
                 <Root_Chord Value="5.829999999999999627e-01" ID="EQDGGPYZNTZ"/>
                 <Sec_Sweep Value="-2.688662672327820857e+00" ID="DYQRWKQSBVT"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="GVYQNQTIJQU"/>
-                <SectTess_U Value="4.000000000000000000e+00" ID="UPCLQGQZRUC"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="UPCLQGQZRUC"/>
                 <Span Value="1.000000000000000056e-01" ID="CHWXVCPKPTV"/>
                 <Sweep Value="9.259999999999999787e+00" ID="UJIMYJUPRZH"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="UHNMFPZBQEZ"/>
@@ -1099,7 +1099,7 @@
                 <Root_Chord Value="5.620000000000000551e-01" ID="PXOVSKCBDEC"/>
                 <Sec_Sweep Value="-2.634003837806194515e+00" ID="IIFDUJDKSPX"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="ERVNVGHMFRG"/>
-                <SectTess_U Value="4.000000000000000000e+00" ID="CHAETPLUAIJ"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="CHAETPLUAIJ"/>
                 <Span Value="1.000000000000000056e-01" ID="ZKJRKEUTGHR"/>
                 <Sweep Value="1.316999999999999993e+01" ID="HUANZUVDZNA"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="PISBMTERXOZ"/>
@@ -1210,7 +1210,7 @@
                 <Root_Chord Value="5.340000000000000302e-01" ID="HXWQDLGYQIU"/>
                 <Sec_Sweep Value="-2.972327342871554201e+00" ID="RSMJPEQBUNF"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="GKXKAYHODZU"/>
-                <SectTess_U Value="4.000000000000000000e+00" ID="DDKEDQRHQEV"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="DDKEDQRHQEV"/>
                 <Span Value="1.000000000000000056e-01" ID="PLSFBGGPQTD"/>
                 <Sweep Value="1.553999999999999915e+01" ID="SEEGEMWVHFS"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="DVXQDVINRZG"/>
@@ -1321,7 +1321,7 @@
                 <Root_Chord Value="5.010000000000000009e-01" ID="RUSSTLVPVBX"/>
                 <Sec_Sweep Value="-2.504742102158020955e+00" ID="XTGKYPBBDQB"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="RRRGSUJLYOA"/>
-                <SectTess_U Value="4.000000000000000000e+00" ID="LZRNHDHJXVA"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="LZRNHDHJXVA"/>
                 <Span Value="8.000000000000000167e-02" ID="PRRFTBXRBWH"/>
                 <Sweep Value="1.767999999999999972e+01" ID="CPYMOGNDHEZ"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="BZSNWKIZJFT"/>
@@ -1432,7 +1432,7 @@
                 <Root_Chord Value="4.719999999999999751e-01" ID="HXWVPZKJELX"/>
                 <Sec_Sweep Value="-3.184827238889762491e+00" ID="OYBGFVGPKHY"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="HYXEGMQOMXZ"/>
-                <SectTess_U Value="4.000000000000000000e+00" ID="KVCBPJVYHFC"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="KVCBPJVYHFC"/>
                 <Span Value="7.000000000000000666e-02" ID="GQUVJNSBPSF"/>
                 <Sweep Value="1.973000000000000043e+01" ID="GLPDGJPGYWF"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="UTWVEGBRDPS"/>
@@ -1543,7 +1543,7 @@
                 <Root_Chord Value="4.430000000000000049e-01" ID="BOYSGXDTOUF"/>
                 <Sec_Sweep Value="-2.004749721828511078e+00" ID="EZPBYZDHTKL"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="PWDOBKKMXNO"/>
-                <SectTess_U Value="4.000000000000000000e+00" ID="NZNEJLLEZIT"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="NZNEJLLEZIT"/>
                 <Span Value="5.999999999999999778e-02" ID="LTEUTRSWKLR"/>
                 <Sweep Value="2.089000000000000057e+01" ID="BCQMIAKBDLP"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="BEYYJTPDYVE"/>
@@ -1654,7 +1654,7 @@
                 <Root_Chord Value="4.179999999999999827e-01" ID="CJNDINCSKBZ"/>
                 <Sec_Sweep Value="-2.742539437154184245e+00" ID="XSPAKJIEKAX"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="LXAWIEHIBTP"/>
-                <SectTess_U Value="4.000000000000000000e+00" ID="GJBPIDTZLVC"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="GJBPIDTZLVC"/>
                 <Span Value="5.000000000000000278e-02" ID="PRCLEBZYXJX"/>
                 <Sweep Value="2.141000000000000014e+01" ID="KEHLMZKKIMT"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="XRBLVVVWUVO"/>
@@ -1765,7 +1765,7 @@
                 <Root_Chord Value="3.960000000000000187e-01" ID="TGZUDGBKWCC"/>
                 <Sec_Sweep Value="-3.436450253914469677e+00" ID="URIJELKTLJN"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="WCLJMGXXTIN"/>
-                <SectTess_U Value="4.000000000000000000e+00" ID="KDHBQUTGDRQ"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="KDHBQUTGDRQ"/>
                 <Span Value="5.000000000000000278e-02" ID="TPRXVZVEFHQ"/>
                 <Sweep Value="2.278000000000000114e+01" ID="LQATGNTRROX"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="SIAAJMZLOTE"/>
@@ -1876,7 +1876,7 @@
                 <Root_Chord Value="3.719999999999999973e-01" ID="QHMFXNFFUVC"/>
                 <Sec_Sweep Value="-2.172481133616221083e+00" ID="AEDBZALSBBP"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="VFWVSQWUFSK"/>
-                <SectTess_U Value="4.000000000000000000e+00" ID="IPQANLDNWLF"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="IPQANLDNWLF"/>
                 <Span Value="5.000000000000000278e-02" ID="WAEGVNNAXIH"/>
                 <Sweep Value="2.480000000000000071e+01" ID="VOVDUMRXDJH"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="SOEFTLBQPBX"/>
@@ -1987,7 +1987,7 @@
                 <Root_Chord Value="3.469999999999999751e-01" ID="CWBANEGXBGX"/>
                 <Sec_Sweep Value="-2.521144604392980604e+00" ID="NDMLVLPIDNC"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="VBWJQGODIPH"/>
-                <SectTess_U Value="4.000000000000000000e+00" ID="QPCFJWXRVCH"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="QPCFJWXRVCH"/>
                 <Span Value="5.000000000000000278e-02" ID="QEHZVWQDFIV"/>
                 <Sweep Value="2.637999999999999901e+01" ID="BCJHHIBDQDZ"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="RGMXOMAUJOZ"/>
@@ -2098,7 +2098,7 @@
                 <Root_Chord Value="3.200000000000000067e-01" ID="JSHKCMITCUG"/>
                 <Sec_Sweep Value="-2.981869384978035331e+00" ID="ACHRZNTBLQZ"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="LDFYWGMOHHT"/>
-                <SectTess_U Value="4.000000000000000000e+00" ID="ZTVHAHYCCOQ"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="ZTVHAHYCCOQ"/>
                 <Span Value="5.000000000000000278e-02" ID="KNDYJZKDVRP"/>
                 <Sweep Value="2.782999999999999829e+01" ID="VFGUNNAFLMX"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="SYBFGWJBEJD"/>
@@ -2209,7 +2209,7 @@
                 <Root_Chord Value="2.909999999999999809e-01" ID="ELBQBCCJWPE"/>
                 <Sec_Sweep Value="-3.090787095549944130e+00" ID="EXKJGTPWVOM"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="PXVLMRGCGMI"/>
-                <SectTess_U Value="4.000000000000000000e+00" ID="NTTTAUFGMKY"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="NTTTAUFGMKY"/>
                 <Span Value="5.000000000000000278e-02" ID="TWQQHJNBKIR"/>
                 <Sweep Value="2.951000000000000156e+01" ID="EGKLGJZCDGN"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="FWQJYZHNFLN"/>
@@ -2320,7 +2320,7 @@
                 <Root_Chord Value="2.600000000000000089e-01" ID="AYOKMZWIYZX"/>
                 <Sec_Sweep Value="-2.970697456779880952e+00" ID="KTSGUSYCGRN"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="NNIFMNLFABT"/>
-                <SectTess_U Value="4.000000000000000000e+00" ID="WPFECFCAIAY"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="WPFECFCAIAY"/>
                 <Span Value="5.000000000000000278e-02" ID="TNMUFIOLLVX"/>
                 <Sweep Value="3.046000000000000085e+01" ID="OOAWZTIBCKZ"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="RVMSTUTSTFO"/>
@@ -2431,7 +2431,7 @@
                 <Root_Chord Value="2.280000000000000082e-01" ID="NZYHMQMZVRE"/>
                 <Sec_Sweep Value="-2.087667199495586878e+00" ID="CDENRXSZLVT"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="URGTLIEHBSR"/>
-                <SectTess_U Value="4.000000000000000000e+00" ID="LKDWLYDAGCM"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="LKDWLYDAGCM"/>
                 <Span Value="4.399999999999999745e-02" ID="XYTVVTMSDLE"/>
                 <Sweep Value="3.096000000000000085e+01" ID="MIKKONGUOTU"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="MCIDQJAKPEP"/>
@@ -2570,7 +2570,7 @@
         </ParasiteDragProps>
         <Shape>
           <Tess_U Value="1.600000000000000000e+01" ID="EBSOXANTZHC"/>
-          <Tess_W Value="7.300000000000000000e+01" ID="XZKGCXWVIMQ"/>
+          <Tess_W Value="3.300000000000000000e+01" ID="XZKGCXWVIMQ"/>
           <Wake Value="0.000000000000000000e+00" ID="MAUWQYLLUPM"/>
         </Shape>
         <Sym>
@@ -2582,11 +2582,11 @@
         </Sym>
         <WingGeom>
           <LECluster Value="2.500000000000000000e-01" ID="IYQXBWCGAJV"/>
-          <MaxGrowth Value="1.179804912173592291e+00" ID="QRTPTCREXYI"/>
+          <MaxGrowth Value="1.437005756083839181e+00" ID="QRTPTCREXYI"/>
           <RelativeDihedralFlag Value="0.000000000000000000e+00" ID="VKKKKGINUGW"/>
           <RelativeTwistFlag Value="0.000000000000000000e+00" ID="CGPVJEGSUDN"/>
           <RotateAirfoilMatchDideralFlag Value="0.000000000000000000e+00" ID="JDJURSPCPKO"/>
-          <SmallPanelW Value="3.774400295299946192e-03" ID="ETUJIFISASQ"/>
+          <SmallPanelW Value="9.189503898002273144e-03" ID="ETUJIFISASQ"/>
           <TECluster Value="2.500000000000000000e-01" ID="GDLWMMEZQOV"/>
           <TotalAR Value="4.919999999999999929e+00" ID="JUOFYFPLXJS"/>
           <TotalArea Value="1.229999999999999982e+00" ID="EMGUQOJYGKC"/>
@@ -2788,7 +2788,7 @@
                 <Root_Chord Value="5.000000000000000000e-01" ID="WDOLJGXLKJG"/>
                 <Sec_Sweep Value="0.000000000000000000e+00" ID="EDYFHGBELRI"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="ELAMNEZEOLH"/>
-                <SectTess_U Value="1.600000000000000000e+01" ID="ZYPTAOYBOKL"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="ZYPTAOYBOKL"/>
                 <Span Value="1.229999999999999982e+00" ID="PXJZBOEQKBB"/>
                 <Sweep Value="0.000000000000000000e+00" ID="KDOHREWVTSB"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="HFKPCXZNFET"/>
@@ -2924,7 +2924,7 @@
         </ParasiteDragProps>
         <Shape>
           <Tess_U Value="1.600000000000000000e+01" ID="ZUKICQLPLHF"/>
-          <Tess_W Value="7.300000000000000000e+01" ID="XXDOSCBXECJ"/>
+          <Tess_W Value="3.300000000000000000e+01" ID="XXDOSCBXECJ"/>
           <Wake Value="0.000000000000000000e+00" ID="AJKZMPAQEBL"/>
         </Shape>
         <Sym>
@@ -2936,11 +2936,11 @@
         </Sym>
         <WingGeom>
           <LECluster Value="2.500000000000000000e-01" ID="YZXNJJBFWAS"/>
-          <MaxGrowth Value="1.179804912173592291e+00" ID="BRELSJJSDFP"/>
+          <MaxGrowth Value="1.437005756083839181e+00" ID="BRELSJJSDFP"/>
           <RelativeDihedralFlag Value="0.000000000000000000e+00" ID="AZTRMELOSWS"/>
           <RelativeTwistFlag Value="0.000000000000000000e+00" ID="MGCVEAMKWEO"/>
           <RotateAirfoilMatchDideralFlag Value="0.000000000000000000e+00" ID="ZNVASXGVQGW"/>
-          <SmallPanelW Value="1.760208104382476706e-03" ID="TBIZNHDVCBU"/>
+          <SmallPanelW Value="4.251778367499243171e-03" ID="TBIZNHDVCBU"/>
           <TECluster Value="2.500000000000000000e-01" ID="WXPIKKMWYPD"/>
           <TotalAR Value="1.317261832565819413e+00" ID="DHUMCELXEGV"/>
           <TotalArea Value="7.667609999999999149e-01" ID="WMAVXKNUEKM"/>
@@ -3145,7 +3145,7 @@
                 <Root_Chord Value="1.036000000000000032e+00" ID="MCKCMUQSGRB"/>
                 <Sec_Sweep Value="-1.047068717661946557e+01" ID="WVAYYQJDANI"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="PDIHNLJCVEK"/>
-                <SectTess_U Value="2.000000000000000000e+01" ID="PQGHBYJEEVS"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="PQGHBYJEEVS"/>
                 <Span Value="8.579999999999999849e-01" ID="PEIWMNIJODK"/>
                 <Sweep Value="1.900000000000000000e+01" ID="VHBJWTOFRCH"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="CEWYVOEMPDI"/>
@@ -3256,7 +3256,7 @@
                 <Root_Chord Value="5.819999999999999618e-01" ID="LUKZMOQZLWC"/>
                 <Sec_Sweep Value="-1.070890194969116216e+01" ID="PDNAJQUOTXN"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="RFBIZQDYFZR"/>
-                <SectTess_U Value="3.000000000000000000e+00" ID="ERAZQVBFKZL"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="ERAZQVBFKZL"/>
                 <Span Value="5.000000000000000278e-02" ID="HGXEZMPCPNW"/>
                 <Sweep Value="2.426999999999999957e+01" ID="UTLXCPLTAYP"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="NABBQAOPEDS"/>
@@ -3367,7 +3367,7 @@
                 <Root_Chord Value="5.500000000000000444e-01" ID="FFYPSUZSBXO"/>
                 <Sec_Sweep Value="-9.457412902090444717e+00" ID="XEUXMYXZGPE"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="JWEHTFPKJHV"/>
-                <SectTess_U Value="3.000000000000000000e+00" ID="BRPQWGWSONA"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="BRPQWGWSONA"/>
                 <Span Value="2.999999999999999889e-02" ID="YXGGDINUIZE"/>
                 <Sweep Value="4.199000000000000199e+01" ID="RIGMHENGBVL"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="CKFYMZZLNWS"/>
@@ -3478,7 +3478,7 @@
                 <Root_Chord Value="5.180000000000000160e-01" ID="GBBHJZEOQWM"/>
                 <Sec_Sweep Value="-1.132573319876266993e+01" ID="ZGFMHBFUATG"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="BSZCZVEUBNX"/>
-                <SectTess_U Value="3.000000000000000000e+00" ID="MIUSYHFCRTW"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="MIUSYHFCRTW"/>
                 <Span Value="2.000000000000000042e-02" ID="UXNNGYGYXER"/>
                 <Sweep Value="5.799000000000000199e+01" ID="IARYTORHJAI"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="MHRLNHEJTFR"/>
@@ -3589,7 +3589,7 @@
                 <Root_Chord Value="4.819999999999999840e-01" ID="FEAQTBYOFGL"/>
                 <Sec_Sweep Value="-9.383049052091223530e+00" ID="EWSWRKPUHSZ"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="YNLJDHSVJII"/>
-                <SectTess_U Value="3.000000000000000000e+00" ID="UYEOVKPKHVE"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="UYEOVKPKHVE"/>
                 <Span Value="2.000000000000000042e-02" ID="HQMRRLNAGUE"/>
                 <Sweep Value="6.846999999999999886e+01" ID="QMYBQPUDYBJ"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="YTCBRQIXEPT"/>
@@ -3700,7 +3700,7 @@
                 <Root_Chord Value="4.279999999999999916e-01" ID="WHARBGLXMBM"/>
                 <Sec_Sweep Value="-1.263952637916573885e+01" ID="XHJMMOIUXZJ"/>
                 <Sec_Sweep_Location Value="1.000000000000000000e+00" ID="UQVIASIBBSF"/>
-                <SectTess_U Value="3.000000000000000000e+00" ID="JSIBWLQDONV"/>
+                <SectTess_U Value="2.000000000000000000e+00" ID="JSIBWLQDONV"/>
                 <Span Value="2.000000000000000042e-02" ID="WCHRATTGRUE"/>
                 <Sweep Value="8.026000000000000512e+01" ID="IEPHWMXPKVW"/>
                 <Sweep_Location Value="0.000000000000000000e+00" ID="KNZSYWFZKEJ"/>
@@ -8290,6 +8290,52 @@
     </ParmContainer>
   </CFDGridDensity>
   <StructureMgr>
+    <FeaPropertyInfo>
+      <ParmContainer>
+        <ID>UVDYIKNZFY</ID>
+        <Name>DefaultShell</Name>
+        <FeaProperty>
+          <CrossSecArea Value="1.000000000000000056e-01" ID="IGTRRISYGVF"/>
+          <CrossSectType Value="0.000000000000000000e+00" ID="JUDATUGYVIQ"/>
+          <Dim1 Value="0.000000000000000000e+00" ID="AXTJICKDTEQ"/>
+          <Dim2 Value="0.000000000000000000e+00" ID="EIVNVVBZDFI"/>
+          <Dim3 Value="0.000000000000000000e+00" ID="UQISAPNCEPB"/>
+          <Dim4 Value="0.000000000000000000e+00" ID="ZYLDIOZOEDZ"/>
+          <Dim5 Value="0.000000000000000000e+00" ID="BQWWTYZAGVR"/>
+          <Dim6 Value="0.000000000000000000e+00" ID="ROTIDVPSYOT"/>
+          <FeaMaterialIndex Value="0.000000000000000000e+00" ID="RELPGMYDFPR"/>
+          <FeaPropertyType Value="0.000000000000000000e+00" ID="CHILFMBTQUS"/>
+          <Ixx Value="0.000000000000000000e+00" ID="BHRJAWKFUZN"/>
+          <Iyy Value="1.000000000000000056e-01" ID="PIGXEGLJBTP"/>
+          <Izy Value="0.000000000000000000e+00" ID="UKICFHLAOEG"/>
+          <Izz Value="1.000000000000000056e-01" ID="RGNDJGTFAFY"/>
+          <Thickness Value="1.000000000000000056e-01" ID="KSPDIGWYLDU"/>
+        </FeaProperty>
+      </ParmContainer>
+    </FeaPropertyInfo>
+    <FeaPropertyInfo>
+      <ParmContainer>
+        <ID>YXUWMPUDKG</ID>
+        <Name>DefaultBeam</Name>
+        <FeaProperty>
+          <CrossSecArea Value="1.000000000000000056e-01" ID="CCJORFTDLST"/>
+          <CrossSectType Value="0.000000000000000000e+00" ID="RQJNRCBJHFH"/>
+          <Dim1 Value="0.000000000000000000e+00" ID="OGMWTXTJKZO"/>
+          <Dim2 Value="0.000000000000000000e+00" ID="RMPENKJKTRO"/>
+          <Dim3 Value="0.000000000000000000e+00" ID="JMZQMSKLBYR"/>
+          <Dim4 Value="0.000000000000000000e+00" ID="PWMMPWYQMSF"/>
+          <Dim5 Value="0.000000000000000000e+00" ID="DWUPFEJZVUL"/>
+          <Dim6 Value="0.000000000000000000e+00" ID="UMAMXLNXCCU"/>
+          <FeaMaterialIndex Value="0.000000000000000000e+00" ID="BUOIFNDCBXO"/>
+          <FeaPropertyType Value="1.000000000000000000e+00" ID="ZPGUJMSEUIW"/>
+          <Ixx Value="0.000000000000000000e+00" ID="IEQTJGAQSWJ"/>
+          <Iyy Value="1.000000000000000056e-01" ID="WQTIDIMJVOL"/>
+          <Izy Value="0.000000000000000000e+00" ID="GFFLAKZTDUH"/>
+          <Izz Value="1.000000000000000056e-01" ID="TMCIGJEQHHM"/>
+          <Thickness Value="1.000000000000000056e-01" ID="BTNJHLMMCGN"/>
+        </FeaProperty>
+      </ParmContainer>
+    </FeaPropertyInfo>
     <FeaPropertyInfo>
       <ParmContainer>
         <ID>JLMJWGWHBQ</ID>
