@@ -364,8 +364,42 @@
   
   <aircraft>
     
-    <name>R44</name>
+    <name>PW-5</name>
     <type>7</type>
+    <file>data/cgi/entities/pw5.xml</file>
+    
+    <distance_def> 20.0 </distance_def>
+    <distance_min>  5.0 </distance_min>
+    
+    <camera_offset>
+      <x>   2.8  </x>
+      <y>  -0.7  </y>
+      <z>   0.0  </z>
+    </camera_offset>
+    
+    <vne unit="kmh"> 213.0 </vne>
+    
+    <controls>
+      <airbrake />
+    </controls>
+    
+    <propulsion engines="0" />
+    
+    <masses>
+      <empty> 683 </empty>
+      <mtow>  300 </mtow>
+    
+      <pilot_1 name="Pilot" maximum="110.0" default="80.0" />
+    </masses>
+      
+  </aircraft>
+  
+  
+  
+  <aircraft>
+    
+    <name>R44</name>
+    <type>8</type>
     <file>data/cgi/entities/r44.xml</file>
     
     <distance_def> 20.0 </distance_def>
@@ -411,7 +445,7 @@
   <aircraft>
     
     <name>UH-60</name>
-    <type>8</type>
+    <type>9</type>
     <file>data/cgi/entities/uh60.xml</file>
     
     <distance_def> 40.0 </distance_def>

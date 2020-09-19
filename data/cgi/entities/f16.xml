@@ -16,6 +16,30 @@
     <z>  -0.02  </z>
   </wing_tip_r>
   
+  <airbrake>
+    
+    <!-- upper -->
+    <element_1>
+      <y>
+        <input_min>   0.0 </input_min>
+        <input_max>   1.0 </input_max>
+        <angle_min>   0.0 </angle_min>
+        <angle_max>  60.0 </angle_max>
+      </y>
+    </element_1>
+    
+    <!-- lower -->
+    <element_2>
+      <y>
+        <input_min>   0.0 </input_min>
+        <input_max>   1.0 </input_max>
+        <angle_min>   0.0 </angle_min>
+        <angle_max> -60.0 </angle_max>
+      </y>
+    </element_2>
+      
+  </airbrake>
+  
   <landing_gear>
   
     <!-- door left -->
