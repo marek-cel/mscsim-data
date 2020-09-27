@@ -78,7 +78,7 @@
       
       <length> 9.07 </length>  <!-- [m] fuselage reference length -->
       <width>  1.28 </width>   <!-- [m] fuselage reference width -->
-      <area>   2.0  </area>    <!-- [m^2] fuselage reference area -->
+      <area>   1.57 </area>    <!-- [m^2] fuselage reference area -->
       
       <!-- [-] drag coefficient vs [rad] angle of attack -->
       <cx keys_unit="deg">

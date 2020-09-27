@@ -1594,7 +1594,7 @@
     <flaps_le_max unit="deg"> 25.0 </flaps_le_max>
     <airbrake_max unit="deg"> 60.0 </airbrake_max>
     
-    <!-- [-] normalized roll command vs [-] normalized roll input -->
+    <!-- [-] normalized roll command vs [lbf] stick force roll input -->
     <control_channel name="roll" input="input.controls.roll">
       -1.0    308.0
       -0.647   80.0
@@ -1607,7 +1607,7 @@
        1.0   -308.0
     </control_channel>
     
-    <!-- [-] normalized pitch command vs [-] normalized pitch input -->
+    <!-- [-] normalized pitch command vs [lbf] stick force pitch input -->
     <control_channel name="pitch" input="input.controls.pitch">
       -1.0     10.86
       -0.181    0.44
@@ -1619,7 +1619,7 @@
        1.0     -4.0
     </control_channel>
     
-    <!-- [-] normalized yaw command vs [-] normalized yaw input -->
+    <!-- [-] normalized yaw command vs [lbf] pedals force yaw input -->
     <control_channel name="yaw" input="input.controls.yaw">
       -1.0    -30.0
       -0.125    0.0
@@ -1628,21 +1628,21 @@
        1.0     30.0
     </control_channel>
     
-    <!-- [-] normalized roll trim vs [-] normalized roll trim input -->
+    <!-- [-] normalized roll trim vs [deg/s] roll trim roll rate input -->
     <control_channel name="roll_trim" input="input.controls.trim_roll">
       -1.0     40.0
        0.0      0.0
        1.0    -40.0
     </control_channel>
     
-    <!-- [-] normalized pitch trim vs [-] normalized pitch trim input -->
+    <!-- [-] normalized pitch trim vs [G] pitch trim G-Force input -->
     <control_channel name="pitch_trim" input="input.controls.trim_pitch">
       -1.0      2.4
        0.0      0.0
        1.0     -2.4
     </control_channel>
     
-    <!-- [-] normalized yaw trim vs [-] normalized yaw trim input -->
+    <!-- [-] normalized yaw trim vs [deg] yaw trim sideslip input -->
     <control_channel name="yaw_trim" input="input.controls.trim_yaw">
       -1.0     -8.0
        0.0      0.0

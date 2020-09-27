@@ -75,13 +75,13 @@
       <pitch>
         <curvature> 1.0 </curvature>
         <deadzone>  0.0 </deadzone>
-        <scale>     0.5 </scale>
+        <scale>     1.0 </scale>
       </pitch>
         
       <yaw>
         <curvature> 1.0 </curvature>
         <deadzone>  0.0 </deadzone>
-        <scale>     0.5 </scale>
+        <scale>     1.0 </scale>
       </yaw>
     </axes>
 
@@ -147,13 +147,13 @@
       <pitch>
         <curvature> 1.0 </curvature>
         <deadzone>  0.0 </deadzone>
-        <scale>     0.5 </scale>
+        <scale>     1.0 </scale>
       </pitch>
         
       <yaw>
-        <curvature> 0.6 </curvature>
+        <curvature> 1.0 </curvature>
         <deadzone>  0.0 </deadzone>
-        <scale>     0.5 </scale>
+        <scale>     1.0 </scale>
       </yaw>
     </axes>
     
@@ -318,13 +318,13 @@
       <pitch>
         <curvature> 1.0 </curvature>
         <deadzone>  0.0 </deadzone>
-        <scale>     0.7 </scale>
+        <scale>     1.0 </scale>
       </pitch>
         
       <yaw>
-        <curvature> 0.6 </curvature>
+        <curvature> 1.0 </curvature>
         <deadzone>  0.0 </deadzone>
-        <scale>     0.5 </scale>
+        <scale>     1.0 </scale>
       </yaw>
     </axes>
 
@@ -379,6 +379,26 @@
     
     <vne unit="kmh"> 213.0 </vne>
     
+    <axes>
+      <roll>
+        <curvature> 1.0 </curvature>
+        <deadzone>  0.0 </deadzone>
+        <scale>     1.0 </scale>
+      </roll>
+        
+      <pitch>
+        <curvature> 1.0 </curvature>
+        <deadzone>  0.0 </deadzone>
+        <scale>     1.0 </scale>
+      </pitch>
+        
+      <yaw>
+        <curvature> 1.0 </curvature>
+        <deadzone>  0.0 </deadzone>
+        <scale>     1.0 </scale>
+      </yaw>
+    </axes>
+    
     <controls>
       <airbrake />
     </controls>
@@ -386,7 +406,7 @@
     <propulsion engines="0" />
     
     <masses>
-      <empty> 683 </empty>
+      <empty> 185 </empty>
       <mtow>  300 </mtow>
     
       <pilot_1 name="Pilot" maximum="110.0" default="80.0" />
