@@ -617,7 +617,7 @@
      -3753.0       0.0   43498.3
     </inertia_tensor>
     
-    <center_of_mass> -0.15 0.0 -0.25 </center_of_mass>  <!-- [m] empty aircraft center of mass coordinates expressed in BAS -->
+    <center_of_mass> -0.16 0.0 -0.25 </center_of_mass>  <!-- [m] empty aircraft center of mass coordinates expressed in BAS -->
     
      <!-- left pilot -->
     <variable_mass name="pilot_l" input="input.masses.pilot_1">
@@ -631,10 +631,16 @@
       <coordinates>  2.9  0.7  0.5 </coordinates>       <!-- [m] coordinates expressed in BAS -->
     </variable_mass>
     
-    <!-- fuel tank -->
-    <variable_mass name="fuel_tank" input="input.masses.tank_1">
-      <mass_max>  1100.0 </mass_max>                    <!-- [kg] maximum mass -->
-      <coordinates> -2.02  0.0  0.8 </coordinates>      <!-- [m] coordinates expressed in BAS -->
+    <!-- fuel tank 1 -->
+    <variable_mass name="fuel_tank_1" input="input.masses.tank_1">
+      <mass_max>  550.0 </mass_max>                     <!-- [kg] maximum mass -->
+      <coordinates>  -2.0  -0.6  0.7  </coordinates>    <!-- [m] coordinates expressed in BAS -->
+    </variable_mass>
+    
+    <!-- fuel tank 2 -->
+    <variable_mass name="fuel_tank_2" input="input.masses.tank_2">
+      <mass_max>  550.0 </mass_max>                     <!-- [kg] maximum mass -->
+      <coordinates>  -2.0  -0.6  0.7  </coordinates>    <!-- [m] coordinates expressed in BAS -->
     </variable_mass>
     
     <!-- cabin_load -->

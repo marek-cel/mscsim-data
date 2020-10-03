@@ -125,7 +125,7 @@
     <type>3</type>
     <file>data/cgi/entities/c172.xml</file>
     
-    <distance_def> 25.0 </distance_def>
+    <distance_def> 20.0 </distance_def>
     <distance_min>  5.0 </distance_min>
     
     <camera_offset>
@@ -196,7 +196,7 @@
     <type>4</type>
     <file>data/cgi/entities/f16.xml</file>
     
-    <distance_def> 33.0 </distance_def>
+    <distance_def> 30.0 </distance_def>
     <distance_min>  5.0 </distance_min>
     
     <camera_offset>
@@ -248,7 +248,7 @@
     <type>5</type>
     <file>data/cgi/entities/f35a.xml</file>
     
-    <distance_def> 33.0 </distance_def>
+    <distance_def> 30.0 </distance_def>
     <distance_min>  5.0 </distance_min>
     
     <camera_offset>
@@ -369,7 +369,7 @@
     <file>data/cgi/entities/pw5.xml</file>
     
     <distance_def> 20.0 </distance_def>
-    <distance_min>  5.0 </distance_min>
+    <distance_min> 13.0 </distance_min>
     
     <camera_offset>
       <x>   2.8  </x>
@@ -499,7 +499,8 @@
     
       <pilot_1     name="Pilot (Left)"  maximum="120.0"  default="80.0"   />
       <pilot_2     name="Pilot (Right)" maximum="120.0"  default="80.0"   />
-      <fuel_tank_1 name="Fuel Tank"     maximum="1100.0" default="1100.0" />
+      <fuel_tank_1 name="Fuel Tank 1"   maximum="550.0"  default="550.0"  />
+      <fuel_tank_2 name="Fuel Tank 2"   maximum="550.0"  default="550.0"  />
       <cabin       name="Cabin"         maximum="1200.0" default="880.0"  />
     </masses>
       
@@ -513,7 +514,7 @@
     <type>901</type>
     <file>data/cgi/entities/f35a.xml</file>
     
-    <distance_def> 33.0 </distance_def>
+    <distance_def> 30.0 </distance_def>
     <distance_min>  5.0 </distance_min>
     
     <camera_offset>

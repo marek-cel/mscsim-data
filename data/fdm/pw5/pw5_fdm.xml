@@ -346,6 +346,12 @@
        1.0    1.0
     </control_channel>
     
+    <!-- [-] normalized wheel brake force vs [-] normalized wheel brake input -->
+    <control_channel name="wheel_brake" input="input.controls.wheel_brake">
+       0.0    0.0
+       1.0    1.0
+    </control_channel>
+    
   </controls>
   
   <!-- landing gear -->
@@ -368,7 +374,7 @@
     </wheel>
     
     <!-- main wheel -->
-    <wheel name="wheel_m" steerable="0" caster="0" brake_group="0">
+    <wheel name="wheel_m" steerable="0" caster="0" brake_group="3">
       <attachment_point>  -0.44   0.0   0.0  </attachment_point>    <!-- [m] strut attachment point coordinates expressed in BAS -->
       <unloaded_wheel>    -0.44   0.0   0.85 </unloaded_wheel>      <!-- [m] unloaded wheel coordinates expressed in BAS -->
       
@@ -474,6 +480,23 @@
   </mass>
   
   <!-- propulsion -->
-  <propulsion></propulsion>
+  <propulsion>
+      
+    <!-- winch launcher -->
+    <winch_launcher>
+      <attachment_point>  0.2  0.0  0.6  </attachment_point>  <!-- [m] attachment point coordinates expressed in BAS -->
+      
+      <for_max>  1500.0  </for_max>                           <!-- [N] maximum cable force -->
+      <len_max>  1000.0  </len_max>                           <!-- [m] maximum cable length -->
+      <ang_max unit="deg">  73.0  </ang_max>                  <!-- [rad] maximum cable angle -->
+      <vel_max unit="kmh">  90.0  </vel_max>
+      
+      <tc_for>  1.0  </tc_for>                                <!-- [s] force time constant -->
+      <tc_vel>  5.0  </tc_vel>                                <!-- [s] force time constant -->
+      
+      <stiffness> 1.0 </stiffness>
+    </winch_launcher>
+      
+  </propulsion>
   
 </fdm>
