@@ -512,7 +512,7 @@
     
     <name>X/F</name>
     <type>901</type>
-    <file>data/cgi/entities/f35a.xml</file>
+    <file>data/cgi/entities/x29.xml</file>
     
     <distance_def> 30.0 </distance_def>
     <distance_min>  5.0 </distance_min>

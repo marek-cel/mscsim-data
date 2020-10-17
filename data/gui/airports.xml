@@ -287,9 +287,9 @@
       
   </airport>
   
-  <!-- LCS-1 -->
+  <!-- LCS -->
   <airport>
-    <name>(LCS-1) USS Freedom</name>
+    <name>(LCS) Littoral Combat Ship</name>
     
     <location>
       <name>Helideck</name>
