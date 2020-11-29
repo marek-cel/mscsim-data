@@ -202,9 +202,11 @@
       <delta_0> 0.001 </delta_0>                      <!-- [-] drag coefficient constant component -->
       <delta_2> 0.001 </delta_2>                      <!-- [-] drag coefficient quadratic component -->
       <ct_max> 0.1846 </ct_max>                       <!-- [-] maximum thrust coefficient -->
+      <ch_max> 1.0 </ch_max>                          <!-- [-] maximum hforce coefficient -->
       <cq_max> 1.0 </cq_max>                          <!-- [-] maximum torque coefficient -->
       <thrust_factor> 0.4 </thrust_factor>            <!-- [-] thrust scaling factor -->
       <torque_factor> 0.4 </torque_factor>            <!-- [-] torque scaling factor -->
+      <hforce_factor> 0.4 </hforce_factor>            <!-- [-] hforce scaling factor -->
       <vel_i_factor>  0.4 </vel_i_factor>             <!-- [-] induced velocity scaling factor -->
     </tail_rotor>
     

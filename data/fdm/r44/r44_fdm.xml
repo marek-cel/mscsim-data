@@ -46,11 +46,6 @@
       <delta_0> 0.001 </delta_0>                      <!-- [-] drag coefficient constant component -->
       <delta_2> 0.001 </delta_2>                      <!-- [-] drag coefficient quadratic component -->
       <beta_max unit="deg"> 20.0 </beta_max>          <!-- [rad] maximum flapping angle -->
-      <ct_max> 0.1846 </ct_max>                       <!-- [-] maximum thrust coefficient -->
-      <cq_max> 1.0 </cq_max>                          <!-- [-] maximum torque coefficient -->
-      <thrust_factor> 1.0 </thrust_factor>            <!-- [-] thrust scaling factor -->
-      <torque_factor> 1.0 </torque_factor>            <!-- [-] torque scaling factor -->
-      <vel_i_factor>  1.0 </vel_i_factor>             <!-- [-] induced velocity scaling factor -->
     </main_rotor>
     
     <!-- tail rotor -->
@@ -65,11 +60,6 @@
       <tip_losses> 0.92 </tip_losses>                 <!-- [-] tip losses coefficient -->
       <delta_0> 0.001 </delta_0>                      <!-- [-] drag coefficient constant component -->
       <delta_2> 0.001 </delta_2>                      <!-- [-] drag coefficient quadratic component -->
-      <ct_max> 0.1846 </ct_max>                       <!-- [-] maximum thrust coefficient -->
-      <cq_max> 1.0 </cq_max>                          <!-- [-] maximum torque coefficient -->
-      <thrust_factor> 1.0 </thrust_factor>            <!-- [-] thrust scaling factor -->
-      <torque_factor> 1.0 </torque_factor>            <!-- [-] torque scaling factor -->
-      <vel_i_factor>  1.0 </vel_i_factor>             <!-- [-] induced velocity scaling factor -->
     </tail_rotor>
 
     <!-- fuselage -->

@@ -79,7 +79,7 @@
       <mac>   4.52 </mac>                     <!-- [m] wing mean aerodynamic chord -->
       <area> 42.73 </area>                    <!-- [m^2] wing area -->
       
-      <dcl_dailerons> 0.50 </dcl_dailerons>   <!-- [1/rad] rolling moment coefficient due to ailerons deflection -->
+      <dcl_dailerons> 0.31 </dcl_dailerons>   <!-- [1/rad] rolling moment coefficient due to ailerons deflection -->
       
       <dcx_dairbrake> 0.00 </dcx_dairbrake>   <!-- [1/-] -->
       <dcz_dairbrake> 0.00 </dcz_dairbrake>   <!-- [1/-] -->
