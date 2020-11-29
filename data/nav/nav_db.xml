@@ -2,22 +2,22 @@
 <nav_db>
   
   <apt>
-    <file>data/nav/generic/arpt.txt</file>
-    <file>data/nav/oahu/arpt.txt</file>
+    <file>nav/generic/arpt.txt</file>
+    <file>nav/oahu/arpt.txt</file>
   </apt>
   
   <ils>
-    <file>data/nav/generic/ils.txt</file>
-    <file>data/nav/oahu/ils.txt</file>
+    <file>nav/generic/ils.txt</file>
+    <file>nav/oahu/ils.txt</file>
   </ils>
   
   <nav>
-    <file>data/nav/generic/nav.txt</file>
-    <file>data/nav/oahu/nav.txt</file>
+    <file>nav/generic/nav.txt</file>
+    <file>nav/oahu/nav.txt</file>
   </nav>
   
   <rwy>
-    <file>data/nav/oahu/rwy.txt</file>
+    <file>nav/oahu/rwy.txt</file>
   </rwy>
   
 </nav_db>
