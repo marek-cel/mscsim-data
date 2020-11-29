@@ -2,17 +2,17 @@
 <layers>
   
   <landmass>
-    <file>data/map/layers/bnd_polbnd_without_hawaii.osgb</file>
-    <file>data/map/layers/hawaii_landmass.osgb</file>
-    <file>data/map/layers/xgen_landmass.osgb</file>
+    <file>map/layers/bnd_polbnd_without_hawaii.osgb</file>
+    <file>map/layers/hawaii_landmass.osgb</file>
+    <file>map/layers/xgen_landmass.osgb</file>
   </landmass>
   
   <airports>
-    <file>data/map/layers/xgen_airport.osgb</file>
+    <file>map/layers/xgen_airport.osgb</file>
   </airports>
   
   <satellite>
-    <file>data/map/layers/satellite.osgb</file>
+    <file>map/layers/satellite.osgb</file>
   </satellite>
   
   <borders>
