@@ -5,7 +5,7 @@
     
     <name>AW101</name>
     <type>1</type>
-    <file>data/cgi/entities/aw101.xml</file>
+    <file>cgi/entities/aw101.xml</file>
     
     <distance_def> 40.0 </distance_def>
     <distance_min>  5.0 </distance_min>
@@ -51,7 +51,7 @@
 
     <name>C-130</name>
     <type>2</type>
-    <file>data/cgi/entities/c130.xml</file>
+    <file>cgi/entities/c130.xml</file>
 
     <distance_def> 60.0 </distance_def>
     <distance_min> 30.0 </distance_min>
@@ -123,7 +123,7 @@
     
     <name>Cessna 172</name>
     <type>3</type>
-    <file>data/cgi/entities/c172.xml</file>
+    <file>cgi/entities/c172.xml</file>
     
     <distance_def> 20.0 </distance_def>
     <distance_min>  5.0 </distance_min>
@@ -194,7 +194,7 @@
   
     <name>F-16</name>
     <type>4</type>
-    <file>data/cgi/entities/f16.xml</file>
+    <file>cgi/entities/f16.xml</file>
     
     <distance_def> 30.0 </distance_def>
     <distance_min>  5.0 </distance_min>
@@ -246,7 +246,7 @@
     
     <name>F-35A</name>
     <type>5</type>
-    <file>data/cgi/entities/f35a.xml</file>
+    <file>cgi/entities/f35a.xml</file>
     
     <distance_def> 30.0 </distance_def>
     <distance_min>  5.0 </distance_min>
@@ -295,7 +295,7 @@
   
     <name>Mustang Mk III</name>
     <type>6</type>
-    <file>data/cgi/entities/p51.xml</file>
+    <file>cgi/entities/p51.xml</file>
     
     <distance_def> 25.0 </distance_def>
     <distance_min>  5.0 </distance_min>
@@ -366,7 +366,7 @@
     
     <name>PW-5</name>
     <type>7</type>
-    <file>data/cgi/entities/pw5.xml</file>
+    <file>cgi/entities/pw5.xml</file>
     
     <distance_def> 20.0 </distance_def>
     <distance_min> 13.0 </distance_min>
@@ -420,7 +420,7 @@
     
     <name>R44</name>
     <type>8</type>
-    <file>data/cgi/entities/r44.xml</file>
+    <file>cgi/entities/r44.xml</file>
     
     <distance_def> 20.0 </distance_def>
     <distance_min>  5.0 </distance_min>
@@ -466,7 +466,7 @@
     
     <name>UH-60</name>
     <type>9</type>
-    <file>data/cgi/entities/uh60.xml</file>
+    <file>cgi/entities/uh60.xml</file>
     
     <distance_def> 40.0 </distance_def>
     <distance_min>  5.0 </distance_min>
@@ -512,7 +512,7 @@
     
     <name>X/F</name>
     <type>901</type>
-    <file>data/cgi/entities/x29.xml</file>
+    <file>cgi/entities/x29.xml</file>
     
     <distance_def> 30.0 </distance_def>
     <distance_min>  5.0 </distance_min>
@@ -561,7 +561,7 @@
     
     <name>X/H</name>
     <type>902</type>
-    <file>data/cgi/entities/uh60.xml</file>
+    <file>cgi/entities/uh60.xml</file>
     
     <distance_def> 40.0 </distance_def>
     <distance_min>  5.0 </distance_min>
