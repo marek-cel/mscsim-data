@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aircraft>
   
-  <model>data/cgi/entities/f16c.osgb</model>
-  <shadow>data/cgi/entities/f16c_shadow.png</shadow>
+  <model>cgi/entities/f16c.osgb</model>
+  <shadow>cgi/entities/f16c_shadow.png</shadow>
   
   <wing_tip_l>
     <x>  -2.89  </x>

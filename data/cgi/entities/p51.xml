@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aircraft>
-  <model>data/cgi/entities/p51.osgb</model>
-  <shadow>data/cgi/entities/p51_shadow.png</shadow>
+
+  <model>cgi/entities/p51.osgb</model>
+  <shadow>cgi/entities/p51_shadow.png</shadow>
   
   <wing_tip_l>
     <x>  -0.97  </x>

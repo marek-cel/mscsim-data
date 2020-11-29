@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aircraft>
   
-  <model>data/cgi/entities/aw101.osgb</model>
-  <shadow>data/cgi/entities/aw101_shadow.png</shadow>
+  <model>cgi/entities/aw101.osgb</model>
+  <shadow>cgi/entities/aw101_shadow.png</shadow>
   
   <rotor>
     <rotor_center>
