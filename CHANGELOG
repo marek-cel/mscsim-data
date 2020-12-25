@@ -1,3 +1,15 @@
+2020-12-25 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * F-35 FDM flaperons and airbrakes aerodynamic characteristics
+    
+    * PW-5 FDM mass characteristics (inertia tensor and CG position)
+    
+    * R44 GUI controls fixed
+    
+    * R44 FDM tail skid and mass characteristics (inertia tensor and CG position)
+
+
+
 2020-11-29 Marek M. Cel <marekcel@marekcel.pl>
 
     * generic airport 3D model

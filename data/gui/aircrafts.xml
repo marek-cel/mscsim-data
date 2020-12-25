@@ -434,7 +434,6 @@
     <vne unit="kts"> 130.0 </vne>
     
     <controls>
-      <landing_gear />
       <collective />
     </controls>
     
