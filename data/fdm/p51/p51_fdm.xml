@@ -61,8 +61,8 @@
       <dcz_dgear>  0.001  </dcz_dgear>        <!-- [-/-] lift coefficient due to landing gear deflection -->
       <dcm_dgear> -0.010  </dcm_dgear>        <!-- [-/-] pitching moment coefficient due to landing gear deflection -->
       
-      <!-- [-] drag coefficient vs angle of attack -->
-      <cx keys_unit="deg">
+      <!-- [-] drag coefficient vs [deg] angle of attack -->
+      <cx>
        -180.0      0.0153
        -170.0      0.0915
        -160.0      0.2339
@@ -131,8 +131,8 @@
         180.0      0.0153
       </cx>
       
-      <!-- [-] lift coefficient vs [rad] angle of attack -->
-      <cz keys_unit="deg">
+      <!-- [-] lift coefficient vs [deg] angle of attack -->
+      <cz>
         -180.0    -0.008
         -170.0     0.059
         -160.0     0.226
@@ -201,8 +201,8 @@
          180.0    -0.008
       </cz>
       
-      <!-- [-] pitching moment coefficient vs [rad] angle of attack -->
-      <cm keys_unit="deg">
+      <!-- [-] pitching moment coefficient vs [deg] angle of attack -->
+      <cm>
         -180.0     0.031
         -170.0     0.232
         -160.0     0.325
@@ -358,8 +358,8 @@
       
       <dcz_delevator_trim> 0.3 </dcz_delevator_trim>  <!-- [1/rad] lift coefficient due to elevator trim deflection -->
       
-      <!-- [-] drag coefficient vs [rad] angle of attack -->
-      <cx keys_unit="deg">
+      <!-- [-] drag coefficient vs [deg] angle of attack -->
+      <cx>
         -180.0     0.0128
         -150.0     0.6200
         -120.0     1.4338
@@ -393,8 +393,8 @@
          180.0     0.0128
       </cx>
         
-      <!-- [-] lift coefficient vs [rad] angle of attack -->
-      <cz keys_unit="deg">
+      <!-- [-] lift coefficient vs [deg] angle of attack -->
+      <cz>
         -180.0     0.000
         -150.0     1.067
         -120.0     0.800
@@ -426,8 +426,8 @@
       <dcx_drudder> 0.48 </dcx_drudder>               <!-- [1/rad] drag coefficient due to rudder deflection -->
       <dcy_drudder> 2.28 </dcy_drudder>               <!-- [1/rad] side force coefficient due to rudder deflection -->
       
-      <!-- [-] drag coefficient vs [rad] sideslip angle -->
-      <cx keys_unit="deg">
+      <!-- [-] drag coefficient vs [deg] sideslip angle -->
+      <cx>
         -90.0      5.3163
         -60.0      4.2957
         -30.0      1.2677
@@ -443,8 +443,8 @@
          90.0      5.2999
       </cx>
       
-      <!-- [-] side force coefficient vs [rad] sideslip angle -->
-      <cy keys_unit="deg">        
+      <!-- [-] side force coefficient vs [deg] sideslip angle -->
+      <cy>
         -90.0      0.739
         -60.0      2.887
         -30.0      2.178
@@ -632,7 +632,7 @@
       </pitch>
       
       <!-- [-] thrust coefficient vs advance [-] (rows) and propeller pitch [rad] (cols) -->
-      <thrust_coef cols_unit="deg" factor="0.15">
+      <thrust_coef factor="0.15">
                23.0    30.0    40.0    45.0    65.0
         0.0     0.192   0.208   0.219   0.230   0.247
         0.1     0.190   0.206   0.219   0.230   0.247
@@ -668,7 +668,7 @@
       </thrust_coef>
       
       <!-- [-] power coefficient vs advance [-] (rows) and propeller pitch [rad] (cols) -->
-      <power_coef cols_unit="deg" factor="0.09">
+      <power_coef factor="0.09">
                23.0    30.0    40.0    45.0    65.0
         0.0     0.153   0.266   0.384   0.483   0.672
         0.1     0.151   0.256   0.384   0.481   0.670

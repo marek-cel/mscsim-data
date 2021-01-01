@@ -70,8 +70,8 @@
       <width>  1.28 </width>   <!-- [m] fuselage reference width -->
       <area>   1.57 </area>    <!-- [m^2] fuselage reference area -->
       
-      <!-- [-] drag coefficient vs [rad] angle of attack -->
-      <cx keys_unit="deg">
+      <!-- [-] drag coefficient vs [deg] angle of attack -->
+      <cx>
         -180.0     0.2103
         -150.0     0.3821
         -120.0     1.0360
@@ -93,7 +93,7 @@
          180.0     0.2103
       </cx>
       
-      <!-- [-] sideforce coefficient vs [rad] angle of sideslip -->
+      <!-- [-] sideforce coefficient vs [deg] angle of sideslip -->
       <cy>
          -90.0     0.724
          -60.0     2.105
@@ -110,7 +110,7 @@
           90.0    -0.721
       </cy>
       
-      <!-- [-] lift coefficient vs [rad] angle of attack -->
+      <!-- [-] lift coefficient vs [deg] angle of attack -->
       <cz>
         -180.0    -0.061
         -150.0     0.387
@@ -133,64 +133,64 @@
          180.0    -0.061
       </cz>
       
-      <!-- [-] rolling moment coefficient vs [rad] angle of sideslip -->
+      <!-- [-] rolling moment coefficient vs [deg] angle of sideslip -->
       <cl>
-         -90.0    -0.054
-         -60.0    -0.458
-         -30.0    -0.208
-         -20.0    -0.148
-         -10.0    -0.145
-          -5.0    -0.067
-           0.0     0.001
-           5.0     0.086
-          10.0     0.150
-          20.0     0.146
-          30.0     0.208
-          60.0     0.446
-          90.0     0.022
+         -90.0    -0.008
+         -60.0    -0.065
+         -30.0    -0.029
+         -20.0    -0.021
+         -10.0    -0.020
+          -5.0    -0.009
+           0.0     0.000
+           5.0     0.012
+          10.0     0.021
+          20.0     0.021
+          30.0     0.029
+          60.0     0.063
+          90.0     0.003
       </cl>
       
-      <!-- [-] pitching moment coefficient vs [rad] angle of attack -->
+      <!-- [-] pitching moment coefficient vs [deg] angle of attack -->
       <cm>
-        -180.0    -0.320
-        -150.0     1.073
-        -120.0     1.862
-         -90.0     1.316
-         -60.0    -0.082
-         -30.0    -0.664
-         -20.0    -0.631
-         -10.0    -0.432
-          -5.0    -0.232
-           0.0    -0.077
-           5.0     0.120
-          10.0     0.249
-          20.0     0.628
-          30.0     0.859
-          60.0     0.685
-          90.0    -0.823
-         120.0    -1.818
-         150.0    -1.711
-         180.0    -0.320
+        -180.0    -0.045
+        -150.0     0.151
+        -120.0     0.263
+         -90.0     0.186
+         -60.0    -0.012
+         -30.0    -0.094
+         -20.0    -0.089
+         -10.0    -0.061
+          -5.0    -0.033
+           0.0    -0.011
+           5.0     0.017
+          10.0     0.035
+          20.0     0.089
+          30.0     0.121
+          60.0     0.097
+          90.0    -0.116
+         120.0    -0.257
+         150.0    -0.241
+         180.0    -0.045
       </cm>
       
-      <!-- [-] yawing moment coefficient vs [rad] angle of sideslip -->
+      <!-- [-] yawing moment coefficient vs [deg] angle of sideslip -->
       <cn>
-         -90.0     1.155
-         -60.0    -0.475
-         -30.0    -1.099
-         -20.0    -0.868
-         -10.0    -0.473
-          -5.0    -0.242
-           0.0     0.001
-           5.0     0.244
-          10.0     0.468
-          20.0     0.868
-          30.0     1.099
-          60.0     0.482
-          90.0    -1.154
+         -90.0     0.163
+         -60.0    -0.067
+         -30.0    -0.155
+         -20.0    -0.123
+         -10.0    -0.067
+          -5.0    -0.034
+           0.0     0.000
+           5.0     0.034
+          10.0     0.066
+          20.0     0.123
+          30.0     0.155
+          60.0     0.068
+          90.0    -0.163
       </cn>
       
-      <!-- [-] incremental drag coefficient vs [rad] angle of sideslip -->
+      <!-- [-] incremental drag coefficient vs [deg] angle of sideslip -->
       <dcx_dbeta>
          -90.0     3.2730
          -60.0     2.5938
@@ -207,7 +207,7 @@
           90.0     3.2844
       </dcx_dbeta>
       
-      <!-- [-] incremental lift coefficient vs [rad] angle of sideslip -->
+      <!-- [-] incremental lift coefficient vs [deg] angle of sideslip -->
       <dcz_dbeta>
          -90.0    -0.584
          -60.0    -0.625
@@ -224,21 +224,21 @@
           90.0    -0.624
       </dcz_dbeta>
       
-      <!-- [-] incremental pitching moment coefficient vs [rad] angle of sideslip -->
+      <!-- [-] incremental pitching moment coefficient vs [deg] angle of sideslip -->
       <dcm_dbeta>
-         -90.0     0.615
-         -60.0     0.362
-         -30.0     0.049
-         -20.0    -0.091
-         -10.0    -0.084
-          -5.0    -0.017
+         -90.0     0.087
+         -60.0     0.051
+         -30.0     0.007
+         -20.0    -0.013
+         -10.0    -0.012
+          -5.0    -0.002
            0.0     0.000
-           5.0    -0.020
-          10.0    -0.088
-          20.0    -0.087
-          30.0     0.050
-          60.0     0.365
-          90.0     0.617
+           5.0    -0.003
+          10.0    -0.012
+          20.0    -0.012
+          30.0     0.007
+          60.0     0.052
+          90.0     0.087
       </dcm_dbeta>
       
     </fuselage>
@@ -250,8 +250,8 @@
       
       <area> 0.47 </area>                              <!-- [m^2] stabilizer area -->
       
-      <!-- [-] drag coefficient vs [rad] angle of attack -->
-      <cx keys_unit="deg">
+      <!-- [-] drag coefficient vs [deg] angle of attack -->
+      <cx>
         -180.0     0.0379
         -150.0     0.4600
         -120.0     0.9924
@@ -273,8 +273,8 @@
          180.0     0.0379
       </cx>
         
-      <!-- [-] lift coefficient vs [rad] angle of attack -->
-      <cz keys_unit="deg">
+      <!-- [-] lift coefficient vs [deg] angle of attack -->
+      <cz>
         -180.0    -0.031
         -150.0     0.679
         -120.0     0.527
@@ -305,8 +305,8 @@
       
       <area> 0.71 </area>                            <!-- [m^2] stabilizer area -->
       
-      <!-- [-] drag coefficient vs [rad] sideslip angle -->
-      <cx keys_unit="deg">
+      <!-- [-] drag coefficient vs [deg] sideslip angle -->
+      <cx>
          -90.0     1.2817
          -60.0     0.9378
          -30.0     0.4314
@@ -322,8 +322,8 @@
           90.0     1.2058
       </cx>
       
-      <!-- [-] side force coefficient vs [rad] sideslip angle -->
-      <cy keys_unit="deg">
+      <!-- [-] side force coefficient vs [deg] sideslip angle -->
+      <cy>
          -90.0     0.059
          -60.0     0.575
          -30.0     0.713

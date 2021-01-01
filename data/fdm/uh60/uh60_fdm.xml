@@ -76,7 +76,7 @@
       <aero_center> 0.11 0.0 0.44 </aero_center>
       
       <!-- EKXWF [-] -->
-      <ekxwf cols_unit="deg" rows_unit="deg">
+      <ekxwf>
                 -6.0     0.0     6.0
          0.0     0.08    0.00   -0.12
         10.0     0.18    0.10    0.02
@@ -92,7 +92,7 @@
       </ekxwf>
       
       <!-- EKXWF [-] -->
-      <ekzwf cols_unit="deg" rows_unit="deg">
+      <ekzwf>
                 -6.0     0.0     6.0
          0.0     1.110   1.120   1.150
         10.0     1.090   1.120   1.150
@@ -108,7 +108,7 @@
       </ekzwf>
       
       <!-- [m^2] DQFMP (drag coefficient) vs [rad] ALFWF (angle of attack) -->
-      <dqfmp keys_unit="deg">
+      <dqfmp>
         -180.0    30.00
          -90.0   150.00
          -80.0   145.00
@@ -139,7 +139,7 @@
       </dqfmp>
       
       <!-- [m^2] LQFMP (lift coefficient) vs [rad] ALFWF (angle of attack) -->
-      <lqfmp keys_unit="deg">
+      <lqfmp>
         -180.0     0.00
          -90.0   -24.00
          -80.0   -54.00
@@ -170,7 +170,7 @@
       </lqfmp>
       
       <!-- [m^3] MQFMP (pitching moment coefficient) vs [rad] ALFWF (angle of attack) -->
-      <mqfmp keys_unit="deg">
+      <mqfmp>
         -180.0     0.00
          -90.0  -200.00
          -80.0  -470.00
@@ -201,7 +201,7 @@
       </mqfmp>
       
       <!-- [m^2] YQFMP (side force coefficient) vs [rad] PSIWF (sideslip angle) -->
-      <yqfmp keys_unit="deg">
+      <yqfmp>
          -90.0   -37.00
          -80.0   -64.00
          -70.0   -84.00
@@ -230,7 +230,7 @@
       </yqfmp>
       
       <!-- [m^3] RQFMP (rolling moment coefficient) vs [rad] PSIWF (sideslip angle) -->
-      <rqfmp keys_unit="deg">
+      <rqfmp>
          -90.0   100.00
          -80.0   100.00
          -70.0   100.00
@@ -259,7 +259,7 @@
       </rqfmp>
       
       <!-- [m^3] NQFMP (yawing moment coefficient) vs [rad] PSIWF (sideslip angle) -->
-      <nqfmp keys_unit="deg">
+      <nqfmp>
          -90.0   440.00
          -80.0   392.00
          -70.0   332.00
@@ -288,7 +288,7 @@
       </nqfmp>
       
       <!-- [m^2] DDQFMP (incremental drag coefficient) vs [rad] PSIWF (sideslip angle) -->
-      <ddqfmp keys_unit="deg">
+      <ddqfmp>
          -90.0   170.50
          -80.0   169.50
          -70.0   164.50
@@ -317,7 +317,7 @@
       </ddqfmp>
       
       <!-- [m^2] DLQFMP (incremental lift coefficient) vs [rad] PSIWF (sideslip angle) -->
-      <dlqfmp keys_unit="deg">
+      <dlqfmp>
          -30.0    30.00
          -25.0    20.00
          -20.0    12.00
@@ -334,7 +334,7 @@
       </dlqfmp>
       
       <!-- [m^3] DMQFMP (incremental pitching moment coefficient) vs [rad] PSIWF (sideslip angle) -->
-      <dmqfmp keys_unit="deg">
+      <dmqfmp>
          -30.0   180.00
          -25.0   130.00
          -20.0    90.00
@@ -360,7 +360,7 @@
       <area> 4.18 </area>                              <!-- [m^2] stabilizer area -->
       
       <!-- [-] drag coefficient vs [rad] angle of attack -->
-      <cx keys_unit="deg">
+      <cx>
         -180.0     0.010
         -150.0     0.430
         -120.0     0.888
@@ -395,7 +395,7 @@
       </cx>
         
       <!-- [-] lift coefficient vs [rad] angle of attack -->
-      <cz keys_unit="deg">
+      <cz>
         -180.0     0.000
         -150.0     0.745
         -120.0     0.757
@@ -439,7 +439,7 @@
       <area> 3.0 </area>                             <!-- [m^2] stabilizer area -->
       
       <!-- [-] drag coefficient vs [rad] sideslip angle -->
-      <cx keys_unit="deg">
+      <cx>
          -90.0     1.080
          -80.0     1.020
          -70.0     0.966
@@ -468,7 +468,7 @@
       </cx>
       
       <!-- [-] side force coefficient vs [rad] sideslip angle -->
-      <cy keys_unit="deg">
+      <cy>
          -90.0     0.000
          -90.0     0.000
          -80.0     0.170

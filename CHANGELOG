@@ -1,6 +1,8 @@
 2021-01-01 Marek M. Cel <marekcel@marekcel.pl>
     
     * R44 FDM aerodynamics characteristics due to CFD simulations
+    
+    * aerodynamic characteristics relative to angles expressed in degrees
 
 
 
