@@ -786,7 +786,7 @@
         1.0  22.0
       </pitch>
       
-      <!-- [-] thrust coefficient vs advance [-] (rows) and propeller pitch [rad] (cols) -->
+      <!-- [-] thrust coefficient vs advance [-] (rows) and propeller pitch [deg] (cols) -->
       <thrust_coef factor="0.9">
                20.0
         0.0     0.104
@@ -818,7 +818,7 @@
         5.0    -0.673
       </thrust_coef>
       
-      <!-- [-] power coefficient vs advance [-] (rows) and propeller pitch [rad] (cols) -->
+      <!-- [-] power coefficient vs advance [-] (rows) and propeller pitch [deg] (cols) -->
       <power_coef>
                20.0
         0.0     0.066
