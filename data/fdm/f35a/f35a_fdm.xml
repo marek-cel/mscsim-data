@@ -635,12 +635,12 @@
     
     <!-- [kg*m^2] empty aircraft inertia tensor -->
     <inertia_tensor>
-     10842.3       0.0   -1560.6
-         0.0   73859.7       0.0
-     -1560.6       0.0   81783.4
+     27196.2          0.0      -2917.9
+         0.0     124000.0          0.0
+     -2917.9          0.0     131057.0
     </inertia_tensor>
     
-    <center_of_mass> -0.36  0.0  0.0 </center_of_mass>  <!-- [m] empty aircraft center of mass coordinates expressed in BAS -->
+    <center_of_mass> 0.14  0.00  0.06 </center_of_mass> <!-- [m] empty aircraft center of mass coordinates expressed in BAS -->
     
     <!-- pilot -->
     <variable_mass name="pilot" input="input.masses.pilot_1">
