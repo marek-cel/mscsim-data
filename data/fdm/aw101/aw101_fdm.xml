@@ -397,7 +397,7 @@
     <!-- fuel tank -->
     <variable_mass name="fuel_tank" input="input.masses.tank_1">
       <mass_max>  3406.0 </mass_max>                    <!-- [kg] maximum mass -->
-      <coordinates>  0.0   0.0  0.0 </coordinates>      <!-- [m] coordinates expressed in BAS -->
+      <coordinates> -0.5  0.0  0.3 </coordinates>       <!-- [m] coordinates expressed in BAS -->
     </variable_mass>
     
     <!-- cabin_load -->
