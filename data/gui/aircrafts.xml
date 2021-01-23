@@ -501,6 +501,7 @@
       <fuel_tank_1 name="Fuel Tank 1"   maximum="550.0"  default="550.0"  />
       <fuel_tank_2 name="Fuel Tank 2"   maximum="550.0"  default="550.0"  />
       <cabin       name="Cabin"         maximum="1200.0" default="880.0"  />
+      <slung       name="Cargo Hook"    maximum="4080.0" default="0.0"    />
     </masses>
       
   </aircraft>

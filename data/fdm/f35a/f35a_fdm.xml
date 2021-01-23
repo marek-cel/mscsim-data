@@ -503,14 +503,18 @@
     <!-- [-] normalized roll command vs [-] normalized roll input -->
     <control_channel name="roll" input="input.controls.roll">
       -1.0     -1.0
+      -0.5     -0.3
        0.0      0.0
+       0.5      0.3
        1.0      1.0
     </control_channel>
     
     <!-- [-] normalized pitch command vs [-] normalized pitch input -->
     <control_channel name="pitch" input="input.controls.pitch">
       -1.0     -1.0
+      -0.5     -0.3
        0.0      0.0
+       0.5      0.3
        1.0      1.0
     </control_channel>
     
@@ -570,6 +574,114 @@
        0.5      2.0
        1.0     10.0
     </control_channel>
+    
+    <!-- Flight Control System -->
+    <flcs>
+      
+      <!-- maximum controls rates -->
+      <max_rate_ailerons>  2.5  </max_rate_ailerons>  <!-- [1/s] -->
+      <max_rate_elevator>  2.5  </max_rate_elevator>  <!-- [1/s] -->
+      <max_rate_rudder>    2.5  </max_rate_rudder>    <!-- [1/s] -->
+      <max_rate_flaps_le>  1.0  </max_rate_flaps_le>  <!-- [1/s] -->
+      <max_rate_flaps_te>  0.2  </max_rate_flaps_te>  <!-- [1/s] -->
+      
+      <!-- control - roll -->
+      <ctrl_roll>
+        <ctrl_tc> 0.02 </ctrl_tc> <!-- [s] -->
+        <rate_tc> 0.02 </rate_tc> <!-- [s] -->
+      
+        <!-- -->
+        <ctrl_input unit="deg/s">
+         -1.0   300.0
+          0.0     0.0
+          1.0  -300.0
+        </ctrl_input>
+        
+        <roll_rate_gain> 1.0 </roll_rate_gain>
+        
+        <!-- PID -->
+        <pid>
+          <kp> 6.0e-1 </kp>
+          <ki> 0.0e-1 </ki>
+          <kd> 0.0e-1 </kd>
+        
+          <min> -1.0 </min>
+          <max>  1.0 </max>
+        </pid>
+      </ctrl_roll>
+
+      <!-- control - pitch -->
+      <ctrl_pitch>
+        <ctrl_tc> 0.02 </ctrl_tc> <!-- [s] -->
+        <rate_tc> 0.02 </rate_tc> <!-- [s] -->
+        
+        <!-- -->
+        <ctrl_input>
+         -1.0     8.0
+          0.0     0.0
+          1.0    -4.0
+        </ctrl_input>
+        
+        <gforce_gain>  1.0  </gforce_gain>
+        <aoa_gain>     0.0  </aoa_gain>
+        
+        <!-- [-] pitch rate gain vs. [mb] dynamic pressure -->
+        <pitch_rate_gain>
+            0.0   1.0
+          150.0   1.0
+          400.0   0.5
+         1500.0   0.1
+        </pitch_rate_gain>
+        
+        <!-- PID -->
+        <pid_1>
+          <kp> 1.0e-1 </kp>
+          <ki> 0.0e-1 </ki>
+          <kd> 0.0e-1 </kd>
+        
+          <min> -1.0 </min>
+          <max>  1.0 </max>
+        </pid_1>
+        
+        <!-- PID -->
+        <pid_2>
+          <kp> 0.0e-1 </kp>
+          <ki> 5.0e-3 </ki>
+          <kd> 5.0e-2 </kd>
+        
+          <min> -0.4 </min>
+          <max>  0.4 </max>
+        </pid_2>
+      </ctrl_pitch>
+      
+      <!-- control - yaw -->
+      <ctrl_yaw>
+        <ctrl_tc> 0.02 </ctrl_tc> <!-- [s] -->
+        <rate_tc> 0.02 </rate_tc> <!-- [s] -->
+        
+        <yaw_rate_gain> 1.0 </yaw_rate_gain>
+        
+        <!-- PID -->
+        <pid>
+          <kp> 2.0e+1 </kp>
+          <ki> 0.0e-1 </ki>
+          <kd> 0.0e-1 </kd>
+        
+          <min> -0.5 </min>
+          <max>  0.5 </max>
+        </pid>
+      </ctrl_yaw>
+
+      <!-- leading edge flaps -->
+      <lef_time_const> 0.5 </lef_time_const>
+      
+      <!-- [-] leading edge flaps position vs. [deg] angle of attack -->
+      <lef_aoa_flaps>
+       10.0     0.0
+       15.0     1.0
+      </lef_aoa_flaps>
+
+    </flcs>
     
   </controls>
   
